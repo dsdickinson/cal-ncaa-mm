@@ -57,7 +57,7 @@ BEGIN:VEVENT
 * Click "Import".<br/>
 * Choose the *.ics file you want to import.<br/>
 * Select the calendar to add the entries to under "Add to calendar".<br/>
-* Click import.<br/>
+* Click import.<br/><br/>
 
 ![image](https://github.com/user-attachments/assets/f26e24d5-0aef-46c0-84dd-d934ab9fe68f) <br/><br/><br/>
 ![image](https://github.com/user-attachments/assets/135a19a4-a7fa-4cca-b37b-f7d10578b24a) <br/><br/><br/>
