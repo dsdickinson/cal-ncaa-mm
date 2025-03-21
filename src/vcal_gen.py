@@ -4,6 +4,7 @@ import os
 import re
 import uuid
 import pandas as pd
+import argparse
 from tabulate import tabulate
 from datetime import timedelta
 
@@ -142,11 +143,31 @@ if __name__ == "__main__":
 	# 1 = on
 	debug = 0
 
+	ap = argparse.ArgumentParser()
+	ap.add_argument("--date", "-d", help="Target date of the tournament for generating the ics file. (i.e.'2025-03-20")
+	args = vars(ap.parse_args())
+
+	arg_date = args["date"]
+	if arg_date == 0 or arg_date == None:
+		print("Must specify a date in the following format: YYYY-MM-DD")
+		exit(1)
+
+	date_match_re = re.compile(r'(20[0-9][0-9])-([0-9][0-9])-([0-9][0-9])')
+	date_match = date_match_re.search(arg_date)
+
+	if not date_match:
+		print("Bad date format: ", date_match.group())
+		exit(1)
+
+	arg_year, arg_month, arg_day = date_match.groups()
+	date_of_games = "{}/{}/{}".format(arg_year, arg_month, arg_day)
+	date_of_games_file = "{}_{}_{}".format(arg_year, arg_month, arg_day)
+
 	head_template_file = "../templates/vcal_head.tmpl"
 	event_template_file = "../templates/vcal_event.tmpl"
 	tail_template_file = "../templates/vcal_tail.tmpl"
 
-	output_file = "../ics/ncaa_mens_bb.ics"
+	output_file = "../ics/ncaa_mens_bb_{}.ics".format(date_of_games_file)
 
 	head_prod_id = "My Product"
 	head_cal_scale = "GREGORIAN"
@@ -203,15 +224,26 @@ if __name__ == "__main__":
 
 			#print(m.get_conference_schedule('ovc', 2024))
 			#print(m.get_game_ids('2025/03/20'))
-			game_ids = m.get_game_ids('2025/03/20')
+			#game_ids = m.get_game_ids('2025/03/20')
+			game_ids = m.get_game_ids(date_of_games)
 		
 			for game_id in game_ids:
 				#print(game_id)
 				game_info = m.get_game_info(game_id)
 				#print(game_info)
 				df = pd.DataFrame(game_info)
-				#print(tabulate(df, headers='keys', tablefmt='psql'))
+				if debug == 1:
+					print(tabulate(df, headers='keys', tablefmt='psql'))
 			
+				# Get pst->est HH:MM AM/PM
+				pattern = r"NIT"
+				match_nit = re.search(pattern, df.tournament.values[0])
+				# Skip the NIT tournament records
+				if match_nit:
+					if debug == 1:
+						print("skipping NIT record")
+					continue
+
 			
 			#	print(df.game_id.values[0])
 			#	print(df.game_status.values[0])
@@ -259,7 +291,6 @@ if __name__ == "__main__":
 				# March 20, 2025 01:00 PM PDT > March 20, 2025 04:00 PM EDT
 				date_time_end_est = convert_pst_to_est(date_time_end_pst)
 
-				# XXX
 				# Get pst->est HH:MM AM/PM
 				pattern = r"([0-9]{2}:[0-9]{2} [AP]M)"
 				match_start = re.search(pattern, date_time_start_est)

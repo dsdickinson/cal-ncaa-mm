@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(12) McNeese Cowboys / (4) Purdue Boilermakers
+UID:c5645501-281a-465b-8e38-ba436cdad822
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T121000
+DTEND:20250322T141000
+DTSTAMP:20250322T141000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Providence, RI
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - Midwest Region - 2nd Round\n(12) McNeese Cowboys / (4) Purdue Boilermakers\n12:10 PM - 02:10 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(10) Arkansas Razorbacks / (2) St. John's Red Storm
+UID:2a15c51a-c256-4141-a523-74909d522c69
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T144000
+DTEND:20250322T164000
+DTSTAMP:20250322T164000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Providence, RI
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - West Region - 2nd Round\n(10) Arkansas Razorbacks / (2) St. John's Red Storm\n02:40 PM - 04:40 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(5) Michigan Wolverines / (4) Texas A&M Aggies
+UID:f8c36268-8cc6-43e6-bcc5-6ffab9faef0d
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T171500
+DTEND:20250322T191500
+DTSTAMP:20250322T191500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Denver, CO
+DESCRIPTION:Ball Arena\nMen's Basketball Championship - South Region - 2nd Round\n(5) Michigan Wolverines / (4) Texas A&M Aggies\n05:15 PM - 07:15 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(11) Drake Bulldogs / (3) Texas Tech Red Raiders
+UID:de1c764c-18d6-403f-863d-1280948c1e87
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T181000
+DTEND:20250322T201000
+DTSTAMP:20250322T201000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Wichita, KS
+DESCRIPTION:INTRUST Bank Arena\nMen's Basketball Championship - West Region - 2nd Round\n(11) Drake Bulldogs / (3) Texas Tech Red Raiders\n06:10 PM - 08:10 PM EDT on TNT
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(9) Creighton Bluejays / (1) Auburn Tigers
+UID:e5f0c4a5-d342-4b93-af36-ef8835837236
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T191000
+DTEND:20250322T211000
+DTSTAMP:20250322T211000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Lexington, KY
+DESCRIPTION:Rupp Arena\nMen's Basketball Championship - South Region - 2nd Round\n(9) Creighton Bluejays / (1) Auburn Tigers\n07:10 PM - 09:10 PM EDT on TBS/truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(6) BYU Cougars / (3) Wisconsin Badgers
+UID:1f5796f8-6483-4d58-8397-fce2de819b69
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T194500
+DTEND:20250322T214500
+DTSTAMP:20250322T214500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Denver, CO
+DESCRIPTION:Ball Arena\nMen's Basketball Championship - East Region - 2nd Round\n(6) BYU Cougars / (3) Wisconsin Badgers\n07:45 PM - 09:45 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(8) Gonzaga Bulldogs / (1) Houston Cougars
+UID:2d200904-dcd3-4560-b955-a9f0c542992b
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T204000
+DTEND:20250322T224000
+DTSTAMP:20250322T224000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Wichita, KS
+DESCRIPTION:INTRUST Bank Arena\nMen's Basketball Championship - Midwest Region - 2nd Round\n(8) Gonzaga Bulldogs / (1) Houston Cougars\n08:40 PM - 10:40 PM EDT on TNT
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(7) UCLA Bruins / (2) Tennessee Volunteers
+UID:a0f5225e-c8a9-43dc-88ce-63dd03124a86
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T214000
+DTEND:20250322T234000
+DTSTAMP:20250322T234000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Lexington, KY
+DESCRIPTION:Rupp Arena\nMen's Basketball Championship - Midwest Region - 2nd Round\n(7) UCLA Bruins / (2) Tennessee Volunteers\n09:40 PM - 11:40 PM EDT on TBS/truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(nan) Dayton Flyers / (nan) Chattanooga Mocs
+UID:9eb4b7a1-f4b8-4c6c-a741-9d1d75d0a585
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T113000
+DTEND:20250322T133000
+DTSTAMP:20250322T133000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Chattanooga, TN
+DESCRIPTION:McKenzie Arena\nNIT - 2nd Round\n(nan) Dayton Flyers / (nan) Chattanooga Mocs\n11:30 AM - 01:30 PM EDT on ESPN2/ESPN+
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(nan) Bradley Braves / (nan) George Mason Patriots
+UID:35330ce7-92dc-4f63-b430-07219065e613
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250322T140000
+DTEND:20250322T160000
+DTSTAMP:20250322T160000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Fairfax, VA
+DESCRIPTION:EagleBank Arena\nNIT - 2nd Round\n(nan) Bradley Braves / (nan) George Mason Patriots\n02:00 PM - 04:00 PM EDT on ESPN+
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR

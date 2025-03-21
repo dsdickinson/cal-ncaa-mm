@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(11) North Carolina Tar Heels / (11) San Diego State Aztecs
+UID:e9b578c2-8244-4442-81de-965531fd0e0b
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250318T211000
+DTEND:20250318T231000
+DTSTAMP:20250318T231000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Dayton, OH
+DESCRIPTION:UD Arena\nMen's Basketball Championship - South Region - First Four\n(11) North Carolina Tar Heels / (11) San Diego State Aztecs\n09:10 PM - 11:10 PM EDT on truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(16) St. Francis (PA) Red Flash / (16) Alabama State Hornets
+UID:b842f1cb-2344-4e67-a913-d7eab1d94a54
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250318T184000
+DTEND:20250318T204000
+DTSTAMP:20250318T204000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Dayton, OH
+DESCRIPTION:UD Arena\nMen's Basketball Championship - South Region - First Four\n(16) St. Francis (PA) Red Flash / (16) Alabama State Hornets\n06:40 PM - 08:40 PM EDT on truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR
