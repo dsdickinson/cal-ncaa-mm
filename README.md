@@ -5,7 +5,7 @@
 Welcome to the MADNESS!!!
 Calendar MADNESS!!!
 
-That's right, it is MARCH. Which means, it's time to generate those calendars for every game of the MADNESS (or sadness) ... whichever you prefer.
+That's right, it is MARCH. Which means, it's time to generate those calendar entries for every game of the MADNESS (or sadness) ... whichever you prefer.
 
 ## Brief History
 
@@ -63,4 +63,12 @@ This is how individual event entries in the calendar will look.
 ![image](https://github.com/user-attachments/assets/1497caec-0277-46ea-93aa-51341a9088f3)
 
 ### Mobile
+![image](https://github.com/user-attachments/assets/071cdef2-3539-4e1f-97dd-4f6e84fd28d1)
+![image](https://github.com/user-attachments/assets/8403c82d-7e22-42ff-866f-e2c4ee828289)
+
+
+
+
+
+
 
