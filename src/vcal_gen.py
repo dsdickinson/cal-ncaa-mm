@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import uuid
 import pandas as pd
 from tabulate import tabulate
 from datetime import timedelta
@@ -282,16 +283,16 @@ if __name__ == "__main__":
 					print(f"{df.tournament.values[0]}")
 		
 				event_summary = this_event
-				event_uid = "00001"
+				event_uid = str(uuid.uuid4())
 				event_seq = 1
 				event_status = "CONFIRMED"
 				event_dtstart = ical_event_start_time
 				event_dtend = ical_event_end_time
 				event_dtstamp = ical_event_end_time # XXX
-				event_cats = "March Madness"
+				event_cats = "NCAA Men's Basketball March Madness"
 				event_location = df.game_loc.values[0]
 				event_description = "{} - {} {} on {}".format(this_game_time_start, this_game_time_end, this_time_zone, df.tv_network.values[0])
-				event_url = "MY URL" # XXX
+				event_url = "https://github.com/dsdickinson/cal-ncaa-mm"
 			
 				#print(m.get_game_info(401745972))
 				vcal_event_values = {
