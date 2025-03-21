@@ -61,8 +61,9 @@ BEGIN:VEVENT
 
 ![image](https://github.com/user-attachments/assets/f26e24d5-0aef-46c0-84dd-d934ab9fe68f) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/135a19a4-a7fa-4cca-b37b-f7d10578b24a) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![image](https://github.com/user-attachments/assets/9f21d171-12fa-4280-9d97-ea5b39ca3b8b) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![image](https://github.com/user-attachments/assets/84a5bd31-da68-4adc-afdf-14036d3dca9c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![image](https://github.com/user-attachments/assets/4552f2e9-37a1-4aa3-8a75-ac9f86437ad6) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br/><br/>
+![image](https://github.com/user-attachments/assets/60f0bcf8-8339-4a88-a1ce-44755ff344cd) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/9d3b67a0-5965-4b75-b8d5-bdd00e7d4aa7) 
 
 ## Calendar Events
