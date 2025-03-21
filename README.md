@@ -5,14 +5,14 @@
 Welcome to the MADNESS!!!
 Calendar MADNESS!!!
 
-That's right, it is MARCH. So, it's about time to generate those mobile event calendars for every game of the MADNESS (or sadness) ... once again!
+That's right, it is MARCH. So, it's about time to generate those calendars for every game of the MADNESS (or sadness) ... whichever you prefer.
 
 ## Brief History
 
-It seems like every time March comes around I am looking for a reliable tool, that will simply populate my calendar with all the scheduled March Madness games. Fed-up, I rolled my own.
+It seems like every time mid-March comes around I am looking for a reliable tool, that will simply populate my personal calendar with all the scheduled March Madness games. Fed-up, I rolled my own.
 
 ## Description
-This tool generates a daily NCAA Basketball March Madness Tournament ICS calendar file. Each file will contain a list of individual events. There will be an event for each scheduled game on that day.
+This tool generates NCAA Basketball March Madness Tournament ics calendar files that can be easily imported into any ics supported calendar. Each file will contain a list of individual events. There will be an event for each scheduled game on a given day.
 
 This tool also leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to scrape the game schedules from the ncaa.com website.
 
