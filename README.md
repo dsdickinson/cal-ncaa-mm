@@ -84,7 +84,7 @@ Here's an example run cycle using the 2025 tournament.
 |  2025-03-18 | First Four (day 1) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_18.ics
 |  2025-03-19 | First Four (day 2) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_19.ics
 |  2025-03-20 | Round 1 (day 1)    |  2025-03-20 | Same as above or run after the First Four games are complete. | ncaa_mens_bb_2025_03_20.ics
-|  2025-03-21 | Round 1 (day 2)    |  2025-03-20 | Same as above or run after the First Four games are complete. | ncaa_mens_bb_2025_03_21.ics
+|  2025-03-21 | Round 1 (day 2)    |  2025-03-20 | Same as above.                                                | ncaa_mens_bb_2025_03_21.ics
 |  2025-03-22 | Round 2 (day 1)    |  2025-03-22 | Run after all Round 1 games are complete.                     | ncaa_mens_bb_2025_03_22.ics
 |  2025-03-23 | Round 2 (day 2)    |  2025-03-23 | Run after all Round 2 (day 1) games are complete.             | ncaa_mens_bb_2025_03_23.ics
 |  2025-03-27 | Sweet 16 (day 1)   |  2025-03-24 | Run after all Round 2 (day 2) games are complete.             | ncaa_mens_bb_2025_03_27.ics
