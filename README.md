@@ -9,7 +9,7 @@ That's right, it is MARCH. So, it's about time to generate those mobile event ca
 
 ## Brief History
 
-It seems like every time March comes around I am looking for a reliable tool, that will simply populate my calendar with all the scheduled March Madness games. Feed-up, I rolled my own.
+It seems like every time March comes around I am looking for a reliable tool, that will simply populate my calendar with all the scheduled March Madness games. Fed-up, I rolled my own.
 
 ## Description
 This tool generates a daily NCAA Basketball March Madness Tournament ICS calendar file. Each file will contain a list of individual events. There will be an event for each scheduled game on that day.
