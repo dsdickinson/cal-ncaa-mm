@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import pandas as pd
 from tabulate import tabulate
 from datetime import timedelta
@@ -133,105 +134,184 @@ def convert_date_format(date_string, original_format, new_format):
     except ValueError:
         return None
 
-def create_large_file(template_file, output_file, repetitions):
-    """Creates a larger file by repeating a template's content multiple times."""
-    try:
-        with open(template_file, "r") as template:
-            content = template.read()
-
-        with open(output_file, "w") as output:
-            for _ in range(repetitions):
-                output.write(content + "\n")  # Appending the content with a newline
-
-        print(f"Large file '{output_file}' created successfully with {repetitions} repetitions.")
-
-    except FileNotFoundError:
-        print(f"Error: The file '{template_file}' was not found.")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
 if __name__ == "__main__":
-    template_file = "./templates/vcal.txt"
-    output_file = "./vcal.ics"
+	head_template_file = "../templates/vcal_head.tmpl"
+	event_template_file = "../templates/vcal_event.tmpl"
+	tail_template_file = "../templates/vcal_tail.tmpl"
 
-#print(m.get_conference_schedule('ovc', 2024))
-#print(m.get_game_ids('2025/03/20'))
-#game_ids = m.get_game_ids('2025/03/20')
+	output_file = "./vcal.ics"
 
-	for game_id in game_ids:
-		#print(game_id)
-		game_info = m.get_game_info(game_id)
-		#print(game_info)
-		df = pd.DataFrame(game_info)
-		#print(tabulate(df, headers='keys', tablefmt='psql'))
-	
-	
-	#	print(df.game_id.values[0])
-	#	print(df.game_status.values[0])
-	#	print(df.home_team.values[0])
-	#	print(df.home_id.values[0])
-	#	print(df.home_rank.values[0])
-	#	print(df.home_record.values[0])
-	#	print(df.home_score.values[0])
-	#	print(df.away_team.values[0])
-	#	print(df.away_id.values[0])
-	#	print(df.game_time.values[0])
-	#	print(df.game_loc.values[0])
-	#	print(df.arena.values[0])
-	#	print(df.arena_capacity.values[0])
-	#	print(df.attendance.values[0])
-	#	print(df.tv_network.values[0])
-	#	print(df.referee_1.values[0])
-	#	print(df.referee_2.values[0])
-	#	print(df.referee_3.values[0])
-	
-		this_time_zone = "PDT"
-	
-		# 11:00 AM
-		# 01:00 PM
-		regular_time_pst = df.game_time.values[0].replace(this_time_zone, "").strip()
-		print(f"\nregular time pst: {regular_time_pst}")
-	
-		# 11:00 AM -> 11:00:00
-		# 01:00 PM -> 13:00:00
-		military_time_pst = convert_to_military_time(regular_time_pst)
-		print(f" military time pst: {military_time_pst}")
-	
-		# 11:00 AM -> 01:00 PM
-		# 01:00 PM -> 03:00 PM
-		adjusted_time_pst = adjust_time(regular_time_pst, 2, 0)
-		print(f" adjusted time pst: {adjusted_time_pst}")
-	
-		# March 20, 2025 11:00 AM PDT
-		date_time_start = df.game_day.values[0] + " " + regular_time_pst
-		print(f"date time start: {date_time_start}")
-	
-		# March 20, 2025 01:00 PM PDT
-		date_time_end = df.game_day.values[0] + " " + adjusted_time_pst
-		print(f"date time end: {date_time_end}")
-	
-		# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
-		# Mar 20, 2025 11:00 AM PDT -> 20250320T110000
-		# DTSTART
-		ical_event_start_time = convert_date_format(date_time_start, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
-	
-		# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
-		# Mar 20, 2025 01:00 PM PDT -> 20250320T130000
-		# DTEND
-		ical_event_end_time = convert_date_format(date_time_end, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
-		print(ical_event_start_time)
-		print(ical_event_end_time)
-	
-		this_event = "(" + str(df.away_rank.values[0]) + ") " + df.away_team.values[0] + " / " + "(" + str(df.home_rank.values[0]) + ") " + df.home_team.values[0]
-		#this_game_time_start = df.game_time.values[0]
-		this_game_time_start = regular_time_pst
-		this_game_time_end = adjusted_time_pst
-		print(f"\ngame_id: {game_id}")
-		print(this_event)
-		print(f"{this_game_time_start} - {this_game_time_end} {this_time_zone} on {df.tv_network.values[0]}")
-		print(f"{df.game_loc.values[0]} - {df.arena.values[0]}")
-		print(f"{df.tournament.values[0]}")
-	
-		#print(m.get_game_info(401745972))
+	head_prod_id = "My Product"
+	head_cal_scale = "GREGORIAN"
+	head_method = "PUBLISH"
 
-    	append_event(template_file, output_file, repetitions)
+	vcal_head_values = {
+		"prod_id": head_prod_id,
+		"calscale": head_cal_scale,
+		"method": head_method,
+	}
+
+	try:
+		with open(head_template_file, "r") as head_template:
+			head_template_content = head_template.read()
+			head_template.close()
+	except FileNotFoundError:
+		print(f"Error: The file '{head_template_file}' was not found.")
+		exit(1)
+	except Exception as e:
+		print(f"An error occurred: {e}")
+		exit(1)
+
+	try:
+		with open(event_template_file, "r") as event_template:
+			event_template_content = event_template.read()
+			event_template.close()
+	except FileNotFoundError:
+		print(f"Error: The file '{event_template_file}' was not found.")
+		exit(1)
+	except Exception as e:
+		print(f"An error occurred: {e}")
+		exit(1)
+
+	try:
+		with open(tail_template_file, "r") as tail_template:
+			tail_template_content = tail_template.read()
+			tail_template.close()
+	except FileNotFoundError:
+		print(f"Error: The file '{tail_template_file}' was not found.")
+		exit(1)
+	except Exception as e:
+		print(f"An error occurred: {e}")
+		exit(1)
+
+	# Append each game to vcal file
+	try:
+		os.remove(output_file)
+		with open(output_file, "a") as output:
+			head_filled_content = head_template_content.format(**vcal_head_values)
+			output.write(head_filled_content)
+			#output.write(head_filled_content + "\n")
+
+			#print(m.get_conference_schedule('ovc', 2024))
+			#print(m.get_game_ids('2025/03/20'))
+			game_ids = m.get_game_ids('2025/03/20')
+		
+			for game_id in game_ids:
+				#print(game_id)
+				game_info = m.get_game_info(game_id)
+				#print(game_info)
+				df = pd.DataFrame(game_info)
+				#print(tabulate(df, headers='keys', tablefmt='psql'))
+			
+			
+			#	print(df.game_id.values[0])
+			#	print(df.game_status.values[0])
+			#	print(df.home_team.values[0])
+			#	print(df.home_id.values[0])
+			#	print(df.home_rank.values[0])
+			#	print(df.home_record.values[0])
+			#	print(df.home_score.values[0])
+			#	print(df.away_team.values[0])
+			#	print(df.away_id.values[0])
+			#	print(df.game_time.values[0])
+			#	print(df.game_loc.values[0])
+			#	print(df.arena.values[0])
+			#	print(df.arena_capacity.values[0])
+			#	print(df.attendance.values[0])
+			#	print(df.tv_network.values[0])
+			#	print(df.referee_1.values[0])
+			#	print(df.referee_2.values[0])
+			#	print(df.referee_3.values[0])
+			
+				this_time_zone = "PDT"
+			
+				# 11:00 AM
+				# 01:00 PM
+				regular_time_pst = df.game_time.values[0].replace(this_time_zone, "").strip()
+				print(f"\nregular time pst: {regular_time_pst}")
+			
+				# 11:00 AM -> 11:00:00
+				# 01:00 PM -> 13:00:00
+				military_time_pst = convert_to_military_time(regular_time_pst)
+				print(f" military time pst: {military_time_pst}")
+			
+				# 11:00 AM -> 01:00 PM
+				# 01:00 PM -> 03:00 PM
+				adjusted_time_pst = adjust_time(regular_time_pst, 2, 0)
+				print(f" adjusted time pst: {adjusted_time_pst}")
+			
+				# March 20, 2025 11:00 AM PDT
+				date_time_start = df.game_day.values[0] + " " + regular_time_pst
+				print(f"date time start: {date_time_start}")
+			
+				# March 20, 2025 01:00 PM PDT
+				date_time_end = df.game_day.values[0] + " " + adjusted_time_pst
+				print(f"date time end: {date_time_end}")
+			
+				# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
+				# Mar 20, 2025 11:00 AM PDT -> 20250320T110000
+				# DTSTART
+				ical_event_start_time = convert_date_format(date_time_start, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
+			
+				# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
+				# Mar 20, 2025 01:00 PM PDT -> 20250320T130000
+				# DTEND
+				ical_event_end_time = convert_date_format(date_time_end, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
+				print(ical_event_start_time)
+				print(ical_event_end_time)
+			
+				this_event = "(" + str(df.away_rank.values[0]) + ") " + df.away_team.values[0] + " / " + "(" + str(df.home_rank.values[0]) + ") " + df.home_team.values[0]
+				#this_game_time_start = df.game_time.values[0]
+				this_game_time_start = regular_time_pst
+				this_game_time_end = adjusted_time_pst
+				print(f"\ngame_id: {game_id}")
+				print(this_event)
+				print(f"{this_game_time_start} - {this_game_time_end} {this_time_zone} on {df.tv_network.values[0]}")
+				print(f"{df.game_loc.values[0]} - {df.arena.values[0]}")
+				print(f"{df.tournament.values[0]}")
+		
+				event_summary = this_event
+				event_uid = "00001"
+				event_seq = 1
+				event_status = "CONFIRMED"
+				event_dtstart = ical_event_start_time
+				event_dtend = ical_event_end_time
+				event_dtstamp = ical_event_end_time # XXX
+				event_cats = "March Madness"
+				event_location = df.game_loc.values[0]
+				event_description = "{} - {} {} on {}".format(this_game_time_start, this_game_time_end, this_time_zone, df.tv_network.values[0])
+				event_url = "MY URL" # XXX
+			
+				#print(m.get_game_info(401745972))
+				vcal_event_values = {
+					"summary": event_summary,
+					"uid": event_uid,
+					"sequence": event_seq,
+					"status": event_status,
+					"dtstart": event_dtstart,
+					"dtend": event_dtend,
+					"dtstamp": event_dtstamp,
+					"categories": event_cats,
+					"location": event_location,
+					"description": event_description,
+					"url": event_url,
+				}
+				print(vcal_event_values)
+				event_filled_content = event_template_content.format(**vcal_event_values)
+				output.write(event_filled_content)
+				#output.write(event_filled_content + "\n")
+	
+			vcal_tail_values = {}
+		
+			tail_filled_content = tail_template_content.format(**vcal_tail_values)
+			output.write(tail_filled_content)
+			#output.write(tail_filled_content + "\n")
+
+			output.close()
+	except FileNotFoundError:
+		print(f"Error: The file '{output_file}' was not found.")
+		exit(1)
+	except Exception as e:
+		print(f"An error occurred: {e}")
+		exit(1)
+
