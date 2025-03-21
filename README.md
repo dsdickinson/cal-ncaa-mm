@@ -86,5 +86,5 @@ Final 4 - run after all Elite 8 games are complete. <br/>
 Championship - run after all Final 4 games are complete. <br/>
 
 ## Disclaimer
-The results are only as good as the current data provided by the ncaa.com website. You will get different results based on when this tool is run. As such, this tool needs to be run at the correct times for each round.
+<i>The results are only as good as the current data provided by the ncaa.com website. You will get different results based on when this tool is run. As such, this tool needs to be run at the correct times for each round.</i>
 
