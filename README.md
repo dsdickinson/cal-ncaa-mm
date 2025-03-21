@@ -79,7 +79,7 @@ This provides an example of how individual event entries in the calendar appear 
 
 ## Suggested Run Cycles
 First Four - run for these dates after the Sunday selection is complete. This is the Sunday before the tournament begins.<br/>
-Round 1 - same as above.<br/>
+Round 1 - same as above or after the First Four games are complete.<br/>
 Round 2 - run after all Round 1 games are complete.<br/>
 Sweet 16 - run after all Round 2 games are complete. <br/>
 Elite 8 - run after all Sweet 16 games are complete. <br/>
