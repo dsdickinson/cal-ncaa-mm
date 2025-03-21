@@ -68,7 +68,7 @@ BEGIN:VEVENT
 
 ## Calendar Events
 
-This is how individual event entries in the calendar appear on desktop & mobile devices.
+This provides an example of how individual event entries in the calendar appear on desktop & mobile devices.
 
 ### Desktop
 ![image](https://github.com/user-attachments/assets/1497caec-0277-46ea-93aa-51341a9088f3)
