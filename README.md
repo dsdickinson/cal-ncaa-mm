@@ -77,7 +77,7 @@ This provides an example of how individual event entries in the calendar appear 
 ![image](https://github.com/user-attachments/assets/8403c82d-7e22-42ff-866f-e2c4ee828289)
 
 ## Suggested Run Cycles
-Here's an example for 2025.
+Here's an example run cycle using the 2025 tournament.
 
 | Round Date  | Round              | Date To Run | Explanation                                                   | Filename
 | :---------: | :----------------  | :---------: | :------------------------------------------------------------ | ----------------------------:
