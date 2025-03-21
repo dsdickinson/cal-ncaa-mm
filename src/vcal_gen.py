@@ -11,11 +11,9 @@ import cbbpy.mens_scraper as m
 from datetime import datetime
 import pytz
 
-
 pd.set_option('display.max_columns', None)  # or 1000
 pd.set_option('display.max_rows', None)  # or 1000
 pd.set_option('display.max_colwidth', None)  # or 199
-
 
 def convert_to_military_time(time_12h):
 	"""
@@ -135,6 +133,12 @@ def convert_date_format(date_string, original_format, new_format):
         return None
 
 if __name__ == "__main__":
+
+	# DEBUG MODE
+	# 0 = off
+	# 1 = on
+	debug = 0
+
 	head_template_file = "../templates/vcal_head.tmpl"
 	event_template_file = "../templates/vcal_event.tmpl"
 	tail_template_file = "../templates/vcal_tail.tmpl"
@@ -230,25 +234,27 @@ if __name__ == "__main__":
 				# 11:00 AM
 				# 01:00 PM
 				regular_time_pst = df.game_time.values[0].replace(this_time_zone, "").strip()
-				print(f"\nregular time pst: {regular_time_pst}")
 			
 				# 11:00 AM -> 11:00:00
 				# 01:00 PM -> 13:00:00
 				military_time_pst = convert_to_military_time(regular_time_pst)
-				print(f" military time pst: {military_time_pst}")
 			
 				# 11:00 AM -> 01:00 PM
 				# 01:00 PM -> 03:00 PM
 				adjusted_time_pst = adjust_time(regular_time_pst, 2, 0)
-				print(f" adjusted time pst: {adjusted_time_pst}")
 			
 				# March 20, 2025 11:00 AM PDT
 				date_time_start = df.game_day.values[0] + " " + regular_time_pst
-				print(f"date time start: {date_time_start}")
 			
 				# March 20, 2025 01:00 PM PDT
 				date_time_end = df.game_day.values[0] + " " + adjusted_time_pst
-				print(f"date time end: {date_time_end}")
+
+				if debug == 1:
+					print(f"\nregular time pst: {regular_time_pst}")
+					print(f" military time pst: {military_time_pst}")
+					print(f" adjusted time pst: {adjusted_time_pst}")
+					print(f"date time start: {date_time_start}")
+					print(f"date time end: {date_time_end}")
 			
 				# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
 				# Mar 20, 2025 11:00 AM PDT -> 20250320T110000
@@ -259,18 +265,21 @@ if __name__ == "__main__":
 				# Mar 20, 2025 01:00 PM PDT -> 20250320T130000
 				# DTEND
 				ical_event_end_time = convert_date_format(date_time_end, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
-				print(ical_event_start_time)
-				print(ical_event_end_time)
+
+				if debug == 1:
+					print(ical_event_start_time)
+					print(ical_event_end_time)
 			
 				this_event = "(" + str(df.away_rank.values[0]) + ") " + df.away_team.values[0] + " / " + "(" + str(df.home_rank.values[0]) + ") " + df.home_team.values[0]
 				#this_game_time_start = df.game_time.values[0]
 				this_game_time_start = regular_time_pst
 				this_game_time_end = adjusted_time_pst
-				print(f"\ngame_id: {game_id}")
-				print(this_event)
-				print(f"{this_game_time_start} - {this_game_time_end} {this_time_zone} on {df.tv_network.values[0]}")
-				print(f"{df.game_loc.values[0]} - {df.arena.values[0]}")
-				print(f"{df.tournament.values[0]}")
+				if debug == 1:
+					print(f"\ngame_id: {game_id}")
+					print(this_event)
+					print(f"{this_game_time_start} - {this_game_time_end} {this_time_zone} on {df.tv_network.values[0]}")
+					print(f"{df.game_loc.values[0]} - {df.arena.values[0]}")
+					print(f"{df.tournament.values[0]}")
 		
 				event_summary = this_event
 				event_uid = "00001"
@@ -298,7 +307,9 @@ if __name__ == "__main__":
 					"description": event_description,
 					"url": event_url,
 				}
-				print(vcal_event_values)
+				if debug == 1:
+					print(vcal_event_values)
+
 				event_filled_content = event_template_content.format(**vcal_event_values)
 				output.write(event_filled_content)
 				#output.write(event_filled_content + "\n")
@@ -310,6 +321,8 @@ if __name__ == "__main__":
 			#output.write(tail_filled_content + "\n")
 
 			output.close()
+
+			print(f"File '{output_file}' has been created.")
 	except FileNotFoundError:
 		print(f"Error: The file '{output_file}' was not found.")
 		exit(1)
