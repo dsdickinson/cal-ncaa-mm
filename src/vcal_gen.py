@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import uuid
 import pandas as pd
 from tabulate import tabulate
@@ -59,13 +60,14 @@ def convert_to_standard_time(military_time):
 
     return f"{standard_hours}:{minutes} {period}"
 
-def convert_pst_to_est(pst_time_str, pst_format="%Y-%m-%d %H:%M:%S"):
+#def convert_pst_to_est(pst_time_str, pst_format="%Y-%m-%d %H:%M:%S"):
+def convert_pst_to_est(pst_time_str, pst_format="%B %d, %Y %I:%M %p"):
     """
     Converts a time string from PST to EST.
 
     Args:
         pst_time_str: The time string in PST.
-        pst_format: The format of the PST time string (default is "%Y-%m-%d %H:%M:%S").
+        pst_format: The format of the PST time string (default is "%B %d, %Y %I:%M %p").
 
     Returns:
         The converted time string in EST, or None if an error occurs.
@@ -230,11 +232,12 @@ if __name__ == "__main__":
 			#	print(df.referee_2.values[0])
 			#	print(df.referee_3.values[0])
 			
-				this_time_zone = "PDT"
+				pacific_time_zone = "PDT"
+				eastern_time_zone = "EDT"
 			
 				# 11:00 AM
 				# 01:00 PM
-				regular_time_pst = df.game_time.values[0].replace(this_time_zone, "").strip()
+				regular_time_pst = df.game_time.values[0].replace(pacific_time_zone, "").strip()
 			
 				# 11:00 AM -> 11:00:00
 				# 01:00 PM -> 13:00:00
@@ -245,27 +248,52 @@ if __name__ == "__main__":
 				adjusted_time_pst = adjust_time(regular_time_pst, 2, 0)
 			
 				# March 20, 2025 11:00 AM PDT
-				date_time_start = df.game_day.values[0] + " " + regular_time_pst
+				date_time_start_pst = df.game_day.values[0] + " " + regular_time_pst
 			
 				# March 20, 2025 01:00 PM PDT
-				date_time_end = df.game_day.values[0] + " " + adjusted_time_pst
+				date_time_end_pst = df.game_day.values[0] + " " + adjusted_time_pst
+
+				# March 20, 2025 11:00 AM PDT -> March 20, 2025 02:00 PM EDT
+				date_time_start_est = convert_pst_to_est(date_time_start_pst)
+			
+				# March 20, 2025 01:00 PM PDT > March 20, 2025 04:00 PM EDT
+				date_time_end_est = convert_pst_to_est(date_time_end_pst)
+
+				# XXX
+				# Get pst->est HH:MM AM/PM
+				pattern = r"([0-9]{2}:[0-9]{2} [AP]M)"
+				match_start = re.search(pattern, date_time_start_est)
+				if match_start:
+					time_start_est = match_start.group(1)
+				else:
+					print("Not found")
+
+				match_end = re.search(pattern, date_time_end_est)
+				if match_end:
+					time_end_est = match_end.group(1)
+				else:
+					print("Not found")
 
 				if debug == 1:
 					print(f"\nregular time pst: {regular_time_pst}")
 					print(f" military time pst: {military_time_pst}")
 					print(f" adjusted time pst: {adjusted_time_pst}")
-					print(f"date time start: {date_time_start}")
-					print(f"date time end: {date_time_end}")
+					print(f"date time start pst: {date_time_start_pst}")
+					print(f"date time end pst: {date_time_end_pst}")
+					print(f"date time start est: {date_time_start_est}")
+					print(f"date time end est: {date_time_end_est}")
+					print(f"time start est: {time_start_est}")
+					print(f"time end est: {time_end_est}")
 			
 				# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
 				# Mar 20, 2025 11:00 AM PDT -> 20250320T110000
 				# DTSTART
-				ical_event_start_time = convert_date_format(date_time_start, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
+				ical_event_start_time = convert_date_format(date_time_start_est, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
 			
 				# YYYYMMDDTHHMMSS (%Y%m%d%Z%%H%M%S)
 				# Mar 20, 2025 01:00 PM PDT -> 20250320T130000
 				# DTEND
-				ical_event_end_time = convert_date_format(date_time_end, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
+				ical_event_end_time = convert_date_format(date_time_end_est, "%B %d, %Y %I:%M %p", "%Y%m%dT%H%M%S")
 
 				if debug == 1:
 					print(ical_event_start_time)
@@ -273,12 +301,15 @@ if __name__ == "__main__":
 			
 				this_event = "(" + str(df.away_rank.values[0]) + ") " + df.away_team.values[0] + " / " + "(" + str(df.home_rank.values[0]) + ") " + df.home_team.values[0]
 				#this_game_time_start = df.game_time.values[0]
-				this_game_time_start = regular_time_pst
-				this_game_time_end = adjusted_time_pst
+				#this_game_time_start = regular_time_pst
+				#this_game_time_end = adjusted_time_pst
+				this_game_time_start = time_start_est
+				this_game_time_end = time_end_est
+
 				if debug == 1:
 					print(f"\ngame_id: {game_id}")
 					print(this_event)
-					print(f"{this_game_time_start} - {this_game_time_end} {this_time_zone} on {df.tv_network.values[0]}")
+					print(f"{this_game_time_start} - {this_game_time_end} {eastern_time_zone} on {df.tv_network.values[0]}")
 					print(f"{df.game_loc.values[0]} - {df.arena.values[0]}")
 					print(f"{df.tournament.values[0]}")
 		
@@ -291,7 +322,7 @@ if __name__ == "__main__":
 				event_dtstamp = ical_event_end_time # XXX
 				event_cats = "NCAA Men's Basketball March Madness"
 				event_location = df.game_loc.values[0]
-				event_description = "{} - {} {} on {}".format(this_game_time_start, this_game_time_end, this_time_zone, df.tv_network.values[0])
+				event_description = "{} - {} {} on {}".format(this_game_time_start, this_game_time_end, eastern_time_zone, df.tv_network.values[0])
 				event_url = "https://github.com/dsdickinson/cal-ncaa-mm"
 			
 				#print(m.get_game_info(401745972))
