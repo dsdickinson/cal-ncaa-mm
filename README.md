@@ -53,9 +53,14 @@ BEGIN:VEVENT
 ```
 
 ## Import calendar file
+Add here.
 
 ## Example Calendar Event
 
 This is how individual event entries in the calendar will look.
 
+### Desktop
 ![image](https://github.com/user-attachments/assets/1497caec-0277-46ea-93aa-51341a9088f3)
+
+### Mobile
+
