@@ -5,7 +5,7 @@
 Welcome to the MADNESS!!!
 Calendar MADNESS!!!
 
-That's right, it is MARCH. So, it's about time to generate those calendars for every game of the MADNESS (or sadness) ... whichever you prefer.
+That's right, it is MARCH. Which means, it's time to generate those calendars for every game of the MADNESS (or sadness) ... whichever you prefer.
 
 ## Brief History
 
