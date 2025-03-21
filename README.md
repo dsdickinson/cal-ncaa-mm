@@ -21,31 +21,31 @@ This tool also leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip packag
 ### Generate ICS file
 ```
 > cd src/
-> ./vcal_gen.py
-File '../ics/ncaa_mens_bb.ics' has been deleted.
-File '../ics/ncaa_mens_bb.ics' has been created.
+> ./vcal_gen.py --date 2025-03-22
+File '../ics/ncaa_mens_bb_2025_03_22.ics' has been deleted.
+File '../ics/ncaa_mens_bb_2025_03_22.ics' has been created.
 ```
 
 ### Validate file
 ```
-> head -20 ../ics/ncaa_mens_bb.ics
+> head -20 ../ics/ncaa_mens_bb_2025_03_22.ics
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:My Product
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-SUMMARY:(9) Creighton Bluejays / (1) Auburn Tigers
-UID:0f89f481-94a0-431d-8801-c629f0c63039
+SUMMARY:(12) McNeese Cowboys / (4) Purdue Boilermakers
+UID:c5645501-281a-465b-8e38-ba436cdad822
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250322T000000
-DTEND:20250322T020000
-DTSTAMP:20250322T020000
+DTSTART:20250322T121000
+DTEND:20250322T141000
+DTSTAMP:20250322T141000
 CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Lexington, KY
-DESCRIPTION:Rupp Arena\nMen's Basketball Championship - South Region - 2nd Round\n(9) Creighton Bluejays / (1) Auburn Tigers\n12:00 AM - 02:00 AM EDT on
+LOCATION:Providence, RI
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - Midwest Region - 2nd Round\n(12) McNeese Cowboys / (4) Purdue Boilermakers\n12:10 PM - 02:10 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
