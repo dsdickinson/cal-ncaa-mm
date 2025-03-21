@@ -78,7 +78,7 @@ This is how individual event entries in the calendar appear on desktop & mobile 
 ![image](https://github.com/user-attachments/assets/8403c82d-7e22-42ff-866f-e2c4ee828289)
 
 ## Suggested Run Cycles
-First Four - run for these dates after the Sunday selection is complete. This is the Sunday before the tournament starts.<br/>
+First Four - run for these dates after the Sunday selection is complete. This is the Sunday before the tournament begins.<br/>
 Round 1 - same as above.<br/>
 Round 2 - run after all Round 1 games are complete.<br/>
 Sweet 16 - run after all Round 2 games are complete. <br/>
