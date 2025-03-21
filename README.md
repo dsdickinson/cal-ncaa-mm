@@ -1,4 +1,9 @@
 # cal-ncaa-mm
+
+![image](https://github.com/user-attachments/assets/f8075341-1109-4311-b04d-bf346f027351)
+
+
+
 Creates an ics calendar for the NCAA Basketball March Madness Tournament.
 
 This app uses the CBBpy pip package to scrape the game schedules from the ncaa.com website.
