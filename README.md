@@ -52,6 +52,24 @@ BEGIN:VEVENT
 ...
 ```
 
+## Suggested Run Cycles
+Here's an example run cycle using the 2025 tournament.
+
+| Round Date  | Round              | Date To Run | Explanation                                                   | Filename
+| :---------: | :----------------  | :---------: | :------------------------------------------------------------ | ----------------------------:
+|  2025-03-18 | First Four (day 1) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_18.ics
+|  2025-03-19 | First Four (day 2) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_19.ics
+|  2025-03-20 | Round 1 (day 1)    |  2025-03-20 | Same as above or run after the First Four games are complete. | ncaa_mens_bb_2025_03_20.ics
+|  2025-03-21 | Round 1 (day 2)    |  2025-03-20 | Same as above.                                                | ncaa_mens_bb_2025_03_21.ics
+|  2025-03-22 | Round 2 (day 1)    |  2025-03-22 | Run after all Round 1 games are complete.                     | ncaa_mens_bb_2025_03_22.ics
+|  2025-03-23 | Round 2 (day 2)    |  2025-03-23 | Run after all Round 2 (day 1) games are complete.             | ncaa_mens_bb_2025_03_23.ics
+|  2025-03-27 | Sweet 16 (day 1)   |  2025-03-24 | Run after all Round 2 (day 2) games are complete.             | ncaa_mens_bb_2025_03_27.ics
+|  2025-03-28 | Sweet 16 (day 2)   |  2025-03-28 | Run after all Sweet 16 (day 1) games are complete.            | ncaa_mens_bb_2025_03_28.ics
+|  2025-03-29 | Elite 8 (day 1)    |  2025-03-29 | Run after all Sweet 16 (day 2) games are complete.            | ncaa_mens_bb_2025_03_29.ics
+|  2025-03-30 | Elite 8 (day 2)    |  2025-03-29 | Run after all Elite 8 (day 1) games are complete.             | ncaa_mens_bb_2025_03_30.ics
+|  2025-04-05 | Final 4            |  2025-03-31 | Run after all Elite 8 (day 2) games are complete.             | ncaa_mens_bb_2025_04_05.ics
+|  2025-04-07 | Championship       |  2025-04-06 | Run after all Final 4 games are complete.                     | ncaa_mens_bb_2025_04_07.ics
+
 ## Import calendar file
 * Go to Google Calendar and look for "Other calendars" and hit the + sign.<br/>
 * Click "Import".<br/>
@@ -76,24 +94,6 @@ This provides an example of how individual event entries in the calendar appear 
 ![image](https://github.com/user-attachments/assets/071cdef2-3539-4e1f-97dd-4f6e84fd28d1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/8403c82d-7e22-42ff-866f-e2c4ee828289)
 
-## Suggested Run Cycles
-Here's an example run cycle using the 2025 tournament.
-
-| Round Date  | Round              | Date To Run | Explanation                                                   | Filename
-| :---------: | :----------------  | :---------: | :------------------------------------------------------------ | ----------------------------:
-|  2025-03-18 | First Four (day 1) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_18.ics
-|  2025-03-19 | First Four (day 2) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_19.ics
-|  2025-03-20 | Round 1 (day 1)    |  2025-03-20 | Same as above or run after the First Four games are complete. | ncaa_mens_bb_2025_03_20.ics
-|  2025-03-21 | Round 1 (day 2)    |  2025-03-20 | Same as above.                                                | ncaa_mens_bb_2025_03_21.ics
-|  2025-03-22 | Round 2 (day 1)    |  2025-03-22 | Run after all Round 1 games are complete.                     | ncaa_mens_bb_2025_03_22.ics
-|  2025-03-23 | Round 2 (day 2)    |  2025-03-23 | Run after all Round 2 (day 1) games are complete.             | ncaa_mens_bb_2025_03_23.ics
-|  2025-03-27 | Sweet 16 (day 1)   |  2025-03-24 | Run after all Round 2 (day 2) games are complete.             | ncaa_mens_bb_2025_03_27.ics
-|  2025-03-28 | Sweet 16 (day 2)   |  2025-03-28 | Run after all Sweet 16 (day 1) games are complete.            | ncaa_mens_bb_2025_03_28.ics
-|  2025-03-29 | Elite 8 (day 1)    |  2025-03-29 | Run after all Sweet 16 (day 2) games are complete.            | ncaa_mens_bb_2025_03_29.ics
-|  2025-03-30 | Elite 8 (day 2)    |  2025-03-29 | Run after all Elite 8 (day 1) games are complete.             | ncaa_mens_bb_2025_03_30.ics
-|  2025-04-05 | Final 4            |  2025-03-31 | Run after all Elite 8 (day 2) games are complete.             | ncaa_mens_bb_2025_04_05.ics
-|  2025-04-07 | Championship       |  2025-04-06 | Run after all Final 4 games are complete.                     | ncaa_mens_bb_2025_04_07.ics
 
 ## Disclaimer
 <i>The results are only as good as the current data provided by the ncaa.com website. You will get different results based on when this tool is run. As such, this tool needs to be run at the correct times for each round.</i>
-
