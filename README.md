@@ -53,9 +53,19 @@ BEGIN:VEVENT
 ```
 
 ## Import calendar file
-Add here.
+* Go to Google Calendar and look for "Other calendars" and hit the + sign.<br/>
+* Click "Import".<br/>
+* Choose the *.ics file you want to import.<br/>
+* Select the calendar to add the entries to under "Add to calendar".<br/>
+* Click import.<br/>
 
-## Example Calendar Event
+![image](https://github.com/user-attachments/assets/f26e24d5-0aef-46c0-84dd-d934ab9fe68f) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![image](https://github.com/user-attachments/assets/135a19a4-a7fa-4cca-b37b-f7d10578b24a) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![image](https://github.com/user-attachments/assets/9f21d171-12fa-4280-9d97-ea5b39ca3b8b) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![image](https://github.com/user-attachments/assets/84a5bd31-da68-4adc-afdf-14036d3dca9c) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![image](https://github.com/user-attachments/assets/9d3b67a0-5965-4b75-b8d5-bdd00e7d4aa7) 
+
+## Calendar Events
 
 This is how individual event entries in the calendar appear.
 
@@ -65,6 +75,7 @@ This is how individual event entries in the calendar appear.
 ### Mobile
 ![image](https://github.com/user-attachments/assets/071cdef2-3539-4e1f-97dd-4f6e84fd28d1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/8403c82d-7e22-42ff-866f-e2c4ee828289)
+
 
 
 
