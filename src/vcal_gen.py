@@ -139,7 +139,7 @@ if __name__ == "__main__":
 	event_template_file = "../templates/vcal_event.tmpl"
 	tail_template_file = "../templates/vcal_tail.tmpl"
 
-	output_file = "./vcal.ics"
+	output_file = "../ics/ncaa_mens_bb.ics"
 
 	head_prod_id = "My Product"
 	head_cal_scale = "GREGORIAN"
@@ -186,7 +186,9 @@ if __name__ == "__main__":
 
 	# Append each game to vcal file
 	try:
-		os.remove(output_file)
+		if os.path.exists(output_file):
+			os.remove(output_file)
+			print(f"File '{output_file}' has been deleted.")
 		with open(output_file, "a") as output:
 			head_filled_content = head_template_content.format(**vcal_head_values)
 			output.write(head_filled_content)
