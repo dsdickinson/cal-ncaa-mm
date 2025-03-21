@@ -77,9 +77,15 @@ This is how individual event entries in the calendar appear on desktop & mobile 
 ![image](https://github.com/user-attachments/assets/071cdef2-3539-4e1f-97dd-4f6e84fd28d1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![image](https://github.com/user-attachments/assets/8403c82d-7e22-42ff-866f-e2c4ee828289)
 
+## Suggested Run Cycles
+First Four - run for these dates after the Sunday selection is complete. This is the Sunday before the tournament starts.<br/>
+Round 1 - same as above.<br/>
+Round 2 - run after all Round 1 games are complete.<br/>
+Sweet 16 - run after all Round 2 games are complete. <br/>
+Elite 8 - run after all Sweet 16 games are complete. <br/>
+Final 4 - run after all Elite 8 games are complete. <br/>
+Championship - run after all Final 4 games are complete. <br/>
 
-
-
-
-
+## Disclaimer
+The results are only as good as the current data provided by the ncaa.com website. You will get different results based on when this tool is run. As such, this tool needs to be run at the correct times for each round.
 
