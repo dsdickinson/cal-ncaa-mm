@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 SUMMARY:(15) Omaha Mavericks / (2) St. John's Red Storm
-UID:58cf2692-016f-4d3c-a037-dee0b7d377ba
+UID:91e7fdc0-ecf2-42b2-a2b8-4841da5a792c
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -14,12 +14,12 @@ DTEND:20250320T235800
 DTSTAMP:20250320T235800
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Providence, RI
-DESCRIPTION:09:58 PM - 11:58 PM EDT on CBS
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - West Region - 1st Round\n(15) Omaha Mavericks / (2) St. John's Red Storm\n09:58 PM - 11:58 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(12) UC San Diego Tritons / (5) Michigan Wolverines
-UID:7d79bb29-589c-4c56-8f87-500c3f6753b9
+UID:22277887-623a-45fd-90cd-c1c5b1cf58aa
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -28,12 +28,12 @@ DTEND:20250321T000000
 DTSTAMP:20250321T000000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Denver, CO
-DESCRIPTION:10:00 PM - 12:00 AM EDT on TBS
+DESCRIPTION:Ball Arena\nMen's Basketball Championship - South Region - 1st Round\n(12) UC San Diego Tritons / (5) Michigan Wolverines\n10:00 PM - 12:00 AM EDT on TBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(14) UNC Wilmington Seahawks / (3) Texas Tech Red Raiders
-UID:e5026b97-df29-4f20-aac4-35bd65921cf4
+UID:b6248354-f425-4266-b3c4-5f95558290bf
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -42,12 +42,12 @@ DTEND:20250321T004200
 DTSTAMP:20250321T004200
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Wichita, KS
-DESCRIPTION:10:42 PM - 12:42 AM EDT on truTV
+DESCRIPTION:INTRUST Bank Arena\nMen's Basketball Championship - West Region - 1st Round\n(14) UNC Wilmington Seahawks / (3) Texas Tech Red Raiders\n10:42 PM - 12:42 AM EDT on truTV
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(16) SIU Edwardsville Cougars / (1) Houston Cougars
-UID:fbbfd2e9-d9ce-4bf9-b665-97ad88584914
+UID:4d9daffe-a5ef-4359-a1c9-a5e11bb932a2
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -56,12 +56,12 @@ DTEND:20250320T160000
 DTSTAMP:20250320T160000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Wichita, KS
-DESCRIPTION:02:00 PM - 04:00 PM EDT on TBS
+DESCRIPTION:INTRUST Bank Arena\nMen's Basketball Championship - Midwest Region - 1st Round\n(16) SIU Edwardsville Cougars / (1) Houston Cougars\n02:00 PM - 04:00 PM EDT on TBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(16) Alabama State Hornets / (1) Auburn Tigers
-UID:f4ba44d4-45f8-445b-9e3c-5a8fe840812e
+UID:d2abb056-0f23-4085-9bc4-7c6453e57b47
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -70,12 +70,12 @@ DTEND:20250320T165000
 DTSTAMP:20250320T165000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Lexington, KY
-DESCRIPTION:02:50 PM - 04:50 PM EDT on CBS
+DESCRIPTION:Rupp Arena\nMen's Basketball Championship - South Region - 1st Round\n(16) Alabama State Hornets / (1) Auburn Tigers\n02:50 PM - 04:50 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(15) Wofford Terriers / (2) Tennessee Volunteers
-UID:d0027eb8-b827-437d-bbc8-40b1150d5e85
+UID:ea1ec4eb-a512-4b03-bd66-e69f097751e7
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -84,12 +84,12 @@ DTEND:20250320T205000
 DTSTAMP:20250320T205000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Lexington, KY
-DESCRIPTION:06:50 PM - 08:50 PM EDT on TNT
+DESCRIPTION:Rupp Arena\nMen's Basketball Championship - Midwest Region - 1st Round\n(15) Wofford Terriers / (2) Tennessee Volunteers\n06:50 PM - 08:50 PM EDT on TNT
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(14) Montana Grizzlies / (3) Wisconsin Badgers
-UID:2aae3c3d-e519-4655-bc8a-3ddd4dad989e
+UID:44400038-8bc4-4503-9d0f-d9dc659167db
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -98,12 +98,12 @@ DTEND:20250320T153000
 DTSTAMP:20250320T153000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Denver, CO
-DESCRIPTION:01:30 PM - 03:30 PM EDT on TNT
+DESCRIPTION:Ball Arena\nMen's Basketball Championship - East Region - 1st Round\n(14) Montana Grizzlies / (3) Wisconsin Badgers\n01:30 PM - 03:30 PM EDT on TNT
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(13) High Point Panthers / (4) Purdue Boilermakers
-UID:56f75b2e-510e-4fdf-a30e-a32e1c6ec6cf
+UID:6fa89145-b9ff-4d60-b740-e30f18325120
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -112,12 +112,12 @@ DTEND:20250320T144000
 DTSTAMP:20250320T144000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Providence, RI
-DESCRIPTION:12:40 PM - 02:40 PM EDT on truTV
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - Midwest Region - 1st Round\n(13) High Point Panthers / (4) Purdue Boilermakers\n12:40 PM - 02:40 PM EDT on truTV
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(13) Yale Bulldogs / (4) Texas A&M Aggies
-UID:3f073372-fad7-4a73-82f1-f44fcbb09312
+UID:6de6a193-db52-4cde-8af1-0ae9c28e7f86
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -126,12 +126,12 @@ DTEND:20250320T212500
 DTSTAMP:20250320T212500
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Denver, CO
-DESCRIPTION:07:25 PM - 09:25 PM EDT on TBS
+DESCRIPTION:Ball Arena\nMen's Basketball Championship - South Region - 1st Round\n(13) Yale Bulldogs / (4) Texas A&M Aggies\n07:25 PM - 09:25 PM EDT on TBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(12) McNeese Cowboys / (5) Clemson Tigers
-UID:eae6c789-968d-48ec-9101-dd0f7004ab09
+UID:43cd0398-1a0e-4237-8836-a3a7a864e803
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -140,12 +140,12 @@ DTEND:20250320T172900
 DTSTAMP:20250320T172900
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Providence, RI
-DESCRIPTION:03:29 PM - 05:29 PM EDT on truTV
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - Midwest Region - 1st Round\n(12) McNeese Cowboys / (5) Clemson Tigers\n03:29 PM - 05:29 PM EDT on truTV
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(11) VCU Rams / (6) BYU Cougars
-UID:79aec185-f410-4322-966d-909947e8a994
+UID:aa86f492-957a-4e9d-8c85-0eb20c723b66
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -154,12 +154,12 @@ DTEND:20250320T180500
 DTSTAMP:20250320T180500
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Denver, CO
-DESCRIPTION:04:05 PM - 06:05 PM EDT on TNT
+DESCRIPTION:Ball Arena\nMen's Basketball Championship - East Region - 1st Round\n(11) VCU Rams / (6) BYU Cougars\n04:05 PM - 06:05 PM EDT on TNT
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(11) Drake Bulldogs / (6) Missouri Tigers
-UID:9ee1f92e-97ba-4fa0-83f1-96c53345f082
+UID:d5ae7941-9744-464c-ac20-47b7a659c87b
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -168,12 +168,12 @@ DTEND:20250320T215100
 DTSTAMP:20250320T215100
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Wichita, KS
-DESCRIPTION:07:51 PM - 09:51 PM EDT on truTV
+DESCRIPTION:INTRUST Bank Arena\nMen's Basketball Championship - West Region - 1st Round\n(11) Drake Bulldogs / (6) Missouri Tigers\n07:51 PM - 09:51 PM EDT on truTV
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(10) Arkansas Razorbacks / (7) Kansas Jayhawks
-UID:0f70c049-a255-4554-bb64-d2429a9efdea
+UID:2c1a0c02-76cb-476c-bdb5-1dd9a033688a
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -182,12 +182,12 @@ DTEND:20250320T211000
 DTSTAMP:20250320T211000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Providence, RI
-DESCRIPTION:07:10 PM - 09:10 PM EDT on CBS
+DESCRIPTION:Amica Mutual Pavilion\nMen's Basketball Championship - West Region - 1st Round\n(10) Arkansas Razorbacks / (7) Kansas Jayhawks\n07:10 PM - 09:10 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(10) Utah State Aggies / (7) UCLA Bruins
-UID:af371f34-1bf1-448c-b593-0565aaa95586
+UID:eb5823d8-b411-4b34-8882-6d894352c1c1
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -196,12 +196,12 @@ DTEND:20250320T232500
 DTSTAMP:20250320T232500
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Lexington, KY
-DESCRIPTION:09:25 PM - 11:25 PM EDT on TNT
+DESCRIPTION:Rupp Arena\nMen's Basketball Championship - Midwest Region - 1st Round\n(10) Utah State Aggies / (7) UCLA Bruins\n09:25 PM - 11:25 PM EDT on TNT
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(9) Creighton Bluejays / (8) Louisville Cardinals
-UID:4b29f920-cae5-467f-96dc-f463eb1fbd29
+UID:6f97f0e1-4360-4a80-8a5e-39f5104258b0
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -210,12 +210,12 @@ DTEND:20250320T141500
 DTSTAMP:20250320T141500
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Lexington, KY
-DESCRIPTION:12:15 PM - 02:15 PM EDT on CBS
+DESCRIPTION:Rupp Arena\nMen's Basketball Championship - South Region - 1st Round\n(9) Creighton Bluejays / (8) Louisville Cardinals\n12:15 PM - 02:15 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(9) Georgia Bulldogs / (8) Gonzaga Bulldogs
-UID:8e6894ab-80f0-427f-b143-5ebbb717a386
+UID:b7e21c74-8e9f-4248-89e8-e0544044f57e
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -224,7 +224,7 @@ DTEND:20250320T183500
 DTSTAMP:20250320T183500
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Wichita, KS
-DESCRIPTION:04:35 PM - 06:35 PM EDT on TBS
+DESCRIPTION:INTRUST Bank Arena\nMen's Basketball Championship - Midwest Region - 1st Round\n(9) Georgia Bulldogs / (8) Gonzaga Bulldogs\n04:35 PM - 06:35 PM EDT on TBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 END:VCALENDAR

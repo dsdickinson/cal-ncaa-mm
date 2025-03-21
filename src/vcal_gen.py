@@ -322,7 +322,7 @@ if __name__ == "__main__":
 				event_dtstamp = ical_event_end_time # XXX
 				event_cats = "NCAA Men's Basketball March Madness"
 				event_location = df.game_loc.values[0]
-				event_description = "{} - {} {} on {}".format(this_game_time_start, this_game_time_end, eastern_time_zone, df.tv_network.values[0])
+				event_description = "{}\\n{}\\n{}\\n{} - {} {} on {}".format(df.arena.values[0], df.tournament.values[0], this_event, this_game_time_start, this_game_time_end, eastern_time_zone, df.tv_network.values[0])
 				event_url = "https://github.com/dsdickinson/cal-ncaa-mm"
 			
 				#print(m.get_game_info(401745972))
