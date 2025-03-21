@@ -2,16 +2,23 @@
 
 ![image](https://github.com/user-attachments/assets/5079cef3-3fae-4b41-8fa0-25c3942fcd37)
 
+Welcome to the MADNESS!!!
+Calendar MADNESS!!!
 
-![image](https://github.com/user-attachments/assets/f8075341-1109-4311-b04d-bf346f027351)
+That's right, it is MARCH. So, it's about time to generate those mobile event calendars for every game of the MADNESS (or sadness) ... once again!
 
+## Brief History
 
+It seems like every time March comes around I am looking for a reliable tool, that will simply populate my calendar with all the scheduled March Madness games. Feed-up, I rolled my own.
 
-Creates an ics calendar for the NCAA Basketball March Madness Tournament.
+## Description
+This tool generates a daily NCAA Basketball March Madness Tournament ICS calendar file. Each file will contain a list of individual events. There will be an event for each scheduled game on that day.
 
-This app uses the CBBpy pip package to scrape the game schedules from the ncaa.com website.
+This tool also leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to scrape the game schedules from the ncaa.com website.
 
-### Run 
+## Usage 
+
+### Generate ICS file
 ```
 > cd src/
 > ./vcal_gen.py
@@ -19,7 +26,7 @@ File '../ics/ncaa_mens_bb.ics' has been deleted.
 File '../ics/ncaa_mens_bb.ics' has been created.
 ```
 
-### Validate
+### Validate file
 ```
 > head -20 ../ics/ncaa_mens_bb.ics
 BEGIN:VCALENDAR
@@ -45,7 +52,9 @@ BEGIN:VEVENT
 ...
 ```
 
-### Example Calendar Event
+## Import calendar file
+
+## Example Calendar Event
 
 This is how individual event entries in the calendar will look.
 
