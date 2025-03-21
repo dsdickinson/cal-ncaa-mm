@@ -147,7 +147,7 @@ if __name__ == "__main__":
 
 	vcal_head_values = {
 		"prod_id": head_prod_id,
-		"calscale": head_cal_scale,
+		"cal_scale": head_cal_scale,
 		"method": head_method,
 	}
 
