@@ -52,6 +52,8 @@ BEGIN:VEVENT
 ...
 ```
 
+<br/>
+
 ## Suggested Run Cycles
 In order to get the desired results, this tool needs to be run when the schedules have been posted and exist in the ncaa.com platform. This will happen naturally as games conclude.<br/><br/>
 Here's an example run cycle using the 2025 tournament schedule.
