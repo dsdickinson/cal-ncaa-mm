@@ -18,9 +18,10 @@ This tool leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to 
 
 ## Usage 
 
-### Generate ICS file
+### Generate ICS file by date
 ```
-> cd src/
+> git clone git@github.com:dsdickinson/cal-ncaa-mm.git
+> cd cal-ncaa-mm/src/
 > ./vcal_gen.py --date 2025-03-22
 File '../ics/ncaa_mens_bb_2025_03_22.ics' has been deleted.
 File '../ics/ncaa_mens_bb_2025_03_22.ics' has been created.
