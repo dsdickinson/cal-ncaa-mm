@@ -9,18 +9,19 @@ That's right, it is MARCH. Which means, it's time to generate those calendar ent
 
 ## Brief History
 
-It seems like every time mid-March comes around I am looking for a reliable tool, that will simply populate my personal calendar with all the scheduled March Madness games. Fed-up, I rolled my own.
+It seems like every time mid-March comes around I am looking for a reliable tool, that will simply populate my personal calendar with all the scheduled March Madness games. So I rolled my own.
 
 ## Description
 This tool generates NCAA Basketball March Madness Tournament ics calendar files that can be easily imported into any ics supported calendar. Each file contains a list of individual events. There will be an event entry for each scheduled game on a given day.
 
-This tool also leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to scrape the game schedules from the ncaa.com website.
+This tool leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to scrape the game schedules from the ncaa.com website.
 
 ## Usage 
 
-### Generate ICS file
+### Generate ICS file by date
 ```
-> cd src/
+> git clone git@github.com:dsdickinson/cal-ncaa-mm.git
+> cd cal-ncaa-mm/src/
 > ./vcal_gen.py --date 2025-03-22
 File '../ics/ncaa_mens_bb_2025_03_22.ics' has been deleted.
 File '../ics/ncaa_mens_bb_2025_03_22.ics' has been created.
@@ -52,23 +53,28 @@ BEGIN:VEVENT
 ...
 ```
 
-## Suggested Run Cycles
-Here's an example run cycle using the 2025 tournament.
+<br/>
 
-| Round Date  | Round              | Date To Run | Explanation                                                   | Filename
-| :---------: | :----------------  | :---------: | :------------------------------------------------------------ | ----------------------------:
-|  2025-03-18 | First Four (day 1) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_18.ics
-|  2025-03-19 | First Four (day 2) |  2025-03-17 | Run after the Sunday selection is complete.                   | ncaa_mens_bb_2025_03_19.ics
-|  2025-03-20 | Round 1 (day 1)    |  2025-03-20 | Same as above or run after the First Four games are complete. | ncaa_mens_bb_2025_03_20.ics
-|  2025-03-21 | Round 1 (day 2)    |  2025-03-20 | Same as above.                                                | ncaa_mens_bb_2025_03_21.ics
-|  2025-03-22 | Round 2 (day 1)    |  2025-03-22 | Run after all Round 1 games are complete.                     | ncaa_mens_bb_2025_03_22.ics
-|  2025-03-23 | Round 2 (day 2)    |  2025-03-23 | Run after all Round 2 (day 1) games are complete.             | ncaa_mens_bb_2025_03_23.ics
-|  2025-03-27 | Sweet 16 (day 1)   |  2025-03-24 | Run after all Round 2 (day 2) games are complete.             | ncaa_mens_bb_2025_03_27.ics
-|  2025-03-28 | Sweet 16 (day 2)   |  2025-03-28 | Run after all Sweet 16 (day 1) games are complete.            | ncaa_mens_bb_2025_03_28.ics
-|  2025-03-29 | Elite 8 (day 1)    |  2025-03-29 | Run after all Sweet 16 (day 2) games are complete.            | ncaa_mens_bb_2025_03_29.ics
-|  2025-03-30 | Elite 8 (day 2)    |  2025-03-29 | Run after all Elite 8 (day 1) games are complete.             | ncaa_mens_bb_2025_03_30.ics
-|  2025-04-05 | Final 4            |  2025-03-31 | Run after all Elite 8 (day 2) games are complete.             | ncaa_mens_bb_2025_04_05.ics
-|  2025-04-07 | Championship       |  2025-04-06 | Run after all Final 4 games are complete.                     | ncaa_mens_bb_2025_04_07.ics
+## Suggested Run Cycles
+In order to get the desired results, this tool needs to be run when the schedules have been posted and exist in the ncaa.com platform. This will happen naturally as games conclude.<br/><br/>
+Here's an example of a run cycle for the 2025 tournament schedule.
+
+| <sub>Round Date</sub>  | <sub>Round</sub>              | <sub>Date To Run</sub> | <sub>Explanation</sub>                                                   | <sub>Filename</sub>
+| :--------------------: | :---------------------------  | :--------------------: | :----------------------------------------------------------------------- | --------------------------------------:
+|  <sub>2025-03-18</sub> | <sub>First Four (day 1)</sub> |  <sub>2025-03-17</sub> | <sub>Run after the Sunday selection is complete.</sub>                   | <sub>ncaa_mens_bb_2025_03_18.ics</sub>
+|  <sub>2025-03-19</sub> | <sub>First Four (day 2)</sub> |  <sub>2025-03-17</sub> | <sub>Run after the Sunday selection is complete.</sub>                   | <sub>ncaa_mens_bb_2025_03_19.ics</sub>
+|  <sub>2025-03-20</sub> | <sub>Round 1 (day 1)</sub>    |  <sub>2025-03-20</sub> | <sub>Same as above or run after the First Four games are complete.</sub> | <sub>ncaa_mens_bb_2025_03_20.ics</sub>
+|  <sub>2025-03-21</sub> | <sub>Round 1 (day 2)</sub>    |  <sub>2025-03-20</sub> | <sub>Same as above.</sub>                                                | <sub>ncaa_mens_bb_2025_03_21.ics</sub>
+|  <sub>2025-03-22</sub> | <sub>Round 2 (day 1)</sub>    |  <sub>2025-03-22</sub> | <sub>Run after all Round 1 games are complete.</sub>                     | <sub>ncaa_mens_bb_2025_03_22.ics</sub>
+|  <sub>2025-03-23</sub> | <sub>Round 2 (day 2)</sub>    |  <sub>2025-03-23</sub> | <sub>Run after all Round 2 (day 1) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_23.ics</sub>
+|  <sub>2025-03-27</sub> | <sub>Sweet 16 (day 1)</sub>   |  <sub>2025-03-24</sub> | <sub>Run after all Round 2 (day 2) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_27.ics</sub>
+|  <sub>2025-03-28</sub> | <sub>Sweet 16 (day 2)</sub>   |  <sub>2025-03-28</sub> | <sub>Run after all Sweet 16 (day 1) games are complete.</sub>            | <sub>ncaa_mens_bb_2025_03_28.ics</sub>
+|  <sub>2025-03-29</sub> | <sub>Elite 8 (day 1)</sub>    |  <sub>2025-03-29</sub> | <sub>Run after all Sweet 16 (day 2) games are complete.</sub>            | <sub>ncaa_mens_bb_2025_03_29.ics</sub>
+|  <sub>2025-03-30</sub> | <sub>Elite 8 (day 2)</sub>    |  <sub>2025-03-29</sub> | <sub>Run after all Elite 8 (day 1) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_30.ics</sub>
+|  <sub>2025-04-05</sub> | <sub>Final 4</sub>            |  <sub>2025-03-31</sub> | <sub>Run after all Elite 8 (day 2) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_04_05.ics</sub>
+|  <sub>2025-04-07</sub> | <sub>Championship</sub>       |  <sub>2025-04-06</sub> | <sub>Run after all Final 4 games are complete.</sub>                     | <sub>ncaa_mens_bb_2025_04_07.ics</sub>
+
+<br/>
 
 ## Import calendar file
 * Go to Google Calendar and look for "Other calendars" and hit the + sign.<br/>
