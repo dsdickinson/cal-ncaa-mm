@@ -4,36 +4,36 @@ PRODID:My Product
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-SUMMARY:(14) Lipscomb Bisons / (3) Iowa State Cyclones
-UID:25827226-39e1-42da-a86d-09f3fef81c84
+SUMMARY:(13) Akron Zips / (4) Arizona Wildcats
+UID:0b763ce9-a61a-486b-9222-e18f2506bce3
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250321T133000
-DTEND:20250321T153000
-DTSTAMP:20250321T153000
+DTSTART:20250321T194800
+DTEND:20250321T214800
+DTSTAMP:20250321T214800
 CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Milwaukee, WI
-DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - South Region - 1st Round\n(14) Lipscomb Bisons / (3) Iowa State Cyclones\n01:30 PM - 03:30 PM EDT on TNT
+LOCATION:Seattle, WA
+DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - East Region - 1st Round\n(13) Akron Zips / (4) Arizona Wildcats\n07:48 PM - 09:48 PM EDT on truTV
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(12) Colorado State Rams / (5) Memphis Tigers
-UID:8a0d89bd-8afa-4fa4-92e9-d5aa7a104409
+SUMMARY:(9) Oklahoma Sooners / (8) UConn Huskies
+UID:647e71e0-c9fc-4228-89a9-a0bdd6d3b754
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250321T140000
-DTEND:20250321T160000
-DTSTAMP:20250321T160000
+DTSTART:20250321T213200
+DTEND:20250321T233200
+DTSTAMP:20250321T233200
 CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Seattle, WA
-DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - West Region - 1st Round\n(12) Colorado State Rams / (5) Memphis Tigers\n02:00 PM - 04:00 PM EDT on TBS
+LOCATION:Raleigh, NC
+DESCRIPTION:Lenovo Center\nMen's Basketball Championship - West Region - 1st Round\n(9) Oklahoma Sooners / (8) UConn Huskies\n09:32 PM - 11:32 PM EDT on TNT
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(16) Mount St. Mary's Mountaineers / (1) Duke Blue Devils
-UID:1d3f06e1-d3ac-402c-9eea-0607a7f5c049
+UID:818c84ec-ad9e-46db-8afc-6eca0695fb40
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -46,78 +46,8 @@ DESCRIPTION:Lenovo Center\nMen's Basketball Championship - East Region - 1st Rou
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(15) Robert Morris Colonials / (2) Alabama Crimson Tide
-UID:299afc9e-f0fc-4bf6-8976-dfa68fcf7f92
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250321T124000
-DTEND:20250321T144000
-DTSTAMP:20250321T144000
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Cleveland, OH
-DESCRIPTION:Rocket Arena\nMen's Basketball Championship - East Region - 1st Round\n(15) Robert Morris Colonials / (2) Alabama Crimson Tide\n12:40 PM - 02:40 PM EDT on truTV
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(9) Baylor Bears / (8) Mississippi State Bulldogs
-UID:b5ba8bb7-3768-4a8f-b6c6-795993090bd0
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250321T121500
-DTEND:20250321T141500
-DTSTAMP:20250321T141500
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Raleigh, NC
-DESCRIPTION:Lenovo Center\nMen's Basketball Championship - East Region - 1st Round\n(9) Baylor Bears / (8) Mississippi State Bulldogs\n12:15 PM - 02:15 PM EDT on CBS
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(10) Vanderbilt Commodores / (7) Saint Mary's Gaels
-UID:7d96884e-a41e-44fa-ace0-d11187346ce2
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250321T153000
-DTEND:20250321T173000
-DTSTAMP:20250321T173000
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Cleveland, OH
-DESCRIPTION:Rocket Arena\nMen's Basketball Championship - East Region - 1st Round\n(10) Vanderbilt Commodores / (7) Saint Mary's Gaels\n03:30 PM - 05:30 PM EDT on truTV
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(11) North Carolina Tar Heels / (6) Ole Miss Rebels
-UID:0e96e11d-42b4-433e-866d-5f4af0840aba
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250321T160500
-DTEND:20250321T180500
-DTSTAMP:20250321T180500
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Milwaukee, WI
-DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - South Region - 1st Round\n(11) North Carolina Tar Heels / (6) Ole Miss Rebels\n04:05 PM - 06:05 PM EDT on TNT
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(13) Grand Canyon Lopes / (4) Maryland Terrapins
-UID:73f79296-2058-44f0-b2e6-405bb4ecaa0a
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250321T163500
-DTEND:20250321T183500
-DTSTAMP:20250321T183500
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Seattle, WA
-DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - West Region - 1st Round\n(13) Grand Canyon Lopes / (4) Maryland Terrapins\n04:35 PM - 06:35 PM EDT on TBS
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:(16) Norfolk State Spartans / (1) Florida Gators
-UID:1c73b267-6e95-4ad1-b5fa-7c4b24f7dbbe
+UID:c4d51a80-3be9-40d1-b61f-89ac50803501
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -130,22 +60,106 @@ DESCRIPTION:Lenovo Center\nMen's Basketball Championship - West Region - 1st Rou
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(14) Troy Trojans / (3) Kentucky Wildcats
-UID:aeb337a9-f809-45d2-b3e4-be5dac0b1c47
+SUMMARY:(15) Robert Morris Colonials / (2) Alabama Crimson Tide
+UID:e0ff5470-e7dc-4827-8289-21f46825a9c0
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250321T191000
-DTEND:20250321T211000
-DTSTAMP:20250321T211000
+DTSTART:20250321T124000
+DTEND:20250321T144000
+DTSTAMP:20250321T144000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Cleveland, OH
+DESCRIPTION:Rocket Arena\nMen's Basketball Championship - East Region - 1st Round\n(15) Robert Morris Colonials / (2) Alabama Crimson Tide\n12:40 PM - 02:40 PM EDT on truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(14) Lipscomb Bisons / (3) Iowa State Cyclones
+UID:5e7b882f-5bff-478d-bd93-ab771150dde1
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250321T133000
+DTEND:20250321T153000
+DTSTAMP:20250321T153000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Milwaukee, WI
-DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - Midwest Region - 1st Round\n(14) Troy Trojans / (3) Kentucky Wildcats\n07:10 PM - 09:10 PM EDT on CBS
+DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - South Region - 1st Round\n(14) Lipscomb Bisons / (3) Iowa State Cyclones\n01:30 PM - 03:30 PM EDT on TNT
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(14) Troy Trojans / (3) Kentucky Wildcats
+UID:872d5bc7-d5d3-403a-8ef1-3d247855be7d
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250321T192000
+DTEND:20250321T212000
+DTSTAMP:20250321T212000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Milwaukee, WI
+DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - Midwest Region - 1st Round\n(14) Troy Trojans / (3) Kentucky Wildcats\n07:20 PM - 09:20 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(13) Grand Canyon Lopes / (4) Maryland Terrapins
+UID:9401c76b-0244-4192-9d25-2d968a51dfbf
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250321T163500
+DTEND:20250321T183500
+DTSTAMP:20250321T183500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Seattle, WA
+DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - West Region - 1st Round\n(13) Grand Canyon Lopes / (4) Maryland Terrapins\n04:35 PM - 06:35 PM EDT on TBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(12) Colorado State Rams / (5) Memphis Tigers
+UID:a85e99b5-494c-446d-b9d3-5e94bc637d15
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250321T140000
+DTEND:20250321T160000
+DTSTAMP:20250321T160000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Seattle, WA
+DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - West Region - 1st Round\n(12) Colorado State Rams / (5) Memphis Tigers\n02:00 PM - 04:00 PM EDT on TBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(11) North Carolina Tar Heels / (6) Ole Miss Rebels
+UID:15f943bc-5623-402b-b3c1-885f9e0aa496
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250321T160500
+DTEND:20250321T180500
+DTSTAMP:20250321T180500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Milwaukee, WI
+DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - South Region - 1st Round\n(11) North Carolina Tar Heels / (6) Ole Miss Rebels\n04:05 PM - 06:05 PM EDT on TNT
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(10) Vanderbilt Commodores / (7) Saint Mary's Gaels
+UID:540b4da4-a3b7-402b-ab09-e1eb1f7a0902
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250321T153000
+DTEND:20250321T173000
+DTSTAMP:20250321T173000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Cleveland, OH
+DESCRIPTION:Rocket Arena\nMen's Basketball Championship - East Region - 1st Round\n(10) Vanderbilt Commodores / (7) Saint Mary's Gaels\n03:30 PM - 05:30 PM EDT on truTV
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(10) New Mexico Lobos / (7) Marquette Golden Eagles
-UID:b59e3044-f349-4da4-ad19-d5f6525f87b6
+UID:3799aca1-c6c8-4b88-9c57-bbef8cae8457
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -158,50 +172,36 @@ DESCRIPTION:Rocket Arena\nMen's Basketball Championship - South Region - 1st Rou
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:(13) Akron Zips / (4) Arizona Wildcats
-UID:ba83149d-b6eb-497d-a06c-84a74f58b05a
+SUMMARY:(9) Baylor Bears / (8) Mississippi State Bulldogs
+UID:aa2e8787-0372-4957-8ad4-1517afbdad0c
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250321T193500
-DTEND:20250321T213500
-DTSTAMP:20250321T213500
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Seattle, WA
-DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - East Region - 1st Round\n(13) Akron Zips / (4) Arizona Wildcats\n07:35 PM - 09:35 PM EDT on truTV
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(9) Oklahoma Sooners / (8) UConn Huskies
-UID:65daef3b-67b2-46d0-bdfd-ee0ff572ec9b
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250321T212500
-DTEND:20250321T232500
-DTSTAMP:20250321T232500
+DTSTART:20250321T121500
+DTEND:20250321T141500
+DTSTAMP:20250321T141500
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Raleigh, NC
-DESCRIPTION:Lenovo Center\nMen's Basketball Championship - West Region - 1st Round\n(9) Oklahoma Sooners / (8) UConn Huskies\n09:25 PM - 11:25 PM EDT on TNT
+DESCRIPTION:Lenovo Center\nMen's Basketball Championship - East Region - 1st Round\n(9) Baylor Bears / (8) Mississippi State Bulldogs\n12:15 PM - 02:15 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(11) Xavier Musketeers / (6) Illinois Fighting Illini
-UID:2022e685-133c-4a6d-b5c5-5b97e7399f65
+UID:62c8afa4-5aca-4ab2-8674-621fdce15790
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250321T214500
-DTEND:20250321T234500
-DTSTAMP:20250321T234500
+DTSTART:20250321T215700
+DTEND:20250321T235700
+DTSTAMP:20250321T235700
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Milwaukee, WI
-DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - Midwest Region - 1st Round\n(11) Xavier Musketeers / (6) Illinois Fighting Illini\n09:45 PM - 11:45 PM EDT on CBS
+DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - Midwest Region - 1st Round\n(11) Xavier Musketeers / (6) Illinois Fighting Illini\n09:57 PM - 11:57 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(15) Bryant Bulldogs / (2) Michigan State Spartans
-UID:e0a3982c-3773-43bf-a054-ed83405e3a8d
+UID:b719019d-3641-4d75-9fe1-4066a6963a69
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -215,7 +215,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(12) Liberty Flames / (5) Oregon Ducks
-UID:2d1a336e-c80f-4e6f-abf9-e0177f848c1b
+UID:44ef282b-4de9-469d-ba11-d275c8693d7e
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT

@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(6) Ole Miss Rebels / (2) Michigan State Spartans
+UID:2a7699b0-fff3-498a-a4c9-4d30e9801612
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250328T190900
+DTEND:20250328T210900
+DTSTAMP:20250328T210900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Atlanta, GA
+DESCRIPTION:State Farm Arena\nMen's Basketball Championship - South Region - Sweet 16\n(6) Ole Miss Rebels / (2) Michigan State Spartans\n07:09 PM - 09:09 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(3) Kentucky Wildcats / (2) Tennessee Volunteers
+UID:203ed4f5-13c8-498a-a354-45a585f4713e
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250328T193900
+DTEND:20250328T213900
+DTSTAMP:20250328T213900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Indianapolis, IN
+DESCRIPTION:Lucas Oil Stadium\nMen's Basketball Championship - Midwest Region - Sweet 16\n(3) Kentucky Wildcats / (2) Tennessee Volunteers\n07:39 PM - 09:39 PM EDT on TBS/truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(5) Michigan Wolverines / (1) Auburn Tigers
+UID:90157e1b-6159-4d2d-a989-1417677d591a
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250328T213900
+DTEND:20250328T233900
+DTSTAMP:20250328T233900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Atlanta, GA
+DESCRIPTION:State Farm Arena\nMen's Basketball Championship - South Region - Sweet 16\n(5) Michigan Wolverines / (1) Auburn Tigers\n09:39 PM - 11:39 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(4) Purdue Boilermakers / (1) Houston Cougars
+UID:26bdbe99-a129-4886-b9a5-fd8db3d201b8
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250328T220900
+DTEND:20250329T000900
+DTSTAMP:20250329T000900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Indianapolis, IN
+DESCRIPTION:Lucas Oil Stadium\nMen's Basketball Championship - Midwest Region - Sweet 16\n(4) Purdue Boilermakers / (1) Houston Cougars\n10:09 PM - 12:09 AM EDT on TBS/truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR

@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 SUMMARY:(12) McNeese Cowboys / (4) Purdue Boilermakers
-UID:c5645501-281a-465b-8e38-ba436cdad822
+UID:fb785cc8-b8d5-48df-9a6d-ca4744aab180
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -19,7 +19,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(10) Arkansas Razorbacks / (2) St. John's Red Storm
-UID:2a15c51a-c256-4141-a523-74909d522c69
+UID:629ecd6a-6bdd-4956-8568-ce8de992abf0
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -33,7 +33,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(5) Michigan Wolverines / (4) Texas A&M Aggies
-UID:f8c36268-8cc6-43e6-bcc5-6ffab9faef0d
+UID:aa119cb5-eb05-46a3-8b9e-8edbe41ea2a5
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -47,7 +47,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(11) Drake Bulldogs / (3) Texas Tech Red Raiders
-UID:de1c764c-18d6-403f-863d-1280948c1e87
+UID:65cb8cc0-84a5-4b00-8de6-7153f72b17bb
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -61,7 +61,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(9) Creighton Bluejays / (1) Auburn Tigers
-UID:e5f0c4a5-d342-4b93-af36-ef8835837236
+UID:0fd33743-c674-4044-a8ae-f34706a6a196
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -75,7 +75,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(6) BYU Cougars / (3) Wisconsin Badgers
-UID:1f5796f8-6483-4d58-8397-fce2de819b69
+UID:43362987-0e39-4313-a8ad-0a1ccae95c61
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -89,7 +89,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(8) Gonzaga Bulldogs / (1) Houston Cougars
-UID:2d200904-dcd3-4560-b955-a9f0c542992b
+UID:e25874a8-a7b7-47c1-9292-c12d9d9043e8
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -103,7 +103,7 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(7) UCLA Bruins / (2) Tennessee Volunteers
-UID:a0f5225e-c8a9-43dc-88ce-63dd03124a86
+UID:d0c412f1-a325-4e1f-a9a5-7d8335811c54
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -113,34 +113,6 @@ DTSTAMP:20250322T234000
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:Lexington, KY
 DESCRIPTION:Rupp Arena\nMen's Basketball Championship - Midwest Region - 2nd Round\n(7) UCLA Bruins / (2) Tennessee Volunteers\n09:40 PM - 11:40 PM EDT on TBS/truTV
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(nan) Dayton Flyers / (nan) Chattanooga Mocs
-UID:9eb4b7a1-f4b8-4c6c-a741-9d1d75d0a585
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250322T113000
-DTEND:20250322T133000
-DTSTAMP:20250322T133000
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Chattanooga, TN
-DESCRIPTION:McKenzie Arena\nNIT - 2nd Round\n(nan) Dayton Flyers / (nan) Chattanooga Mocs\n11:30 AM - 01:30 PM EDT on ESPN2/ESPN+
-URL:https://github.com/dsdickinson/cal-ncaa-mm
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:(nan) Bradley Braves / (nan) George Mason Patriots
-UID:35330ce7-92dc-4f63-b430-07219065e613
-SEQUENCE:1
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-DTSTART:20250322T140000
-DTEND:20250322T160000
-DTSTAMP:20250322T160000
-CATEGORIES:NCAA Men's Basketball March Madness
-LOCATION:Fairfax, VA
-DESCRIPTION:EagleBank Arena\nNIT - 2nd Round\n(nan) Bradley Braves / (nan) George Mason Patriots\n02:00 PM - 04:00 PM EDT on ESPN+
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(6) BYU Cougars / (2) Alabama Crimson Tide
+UID:b7304e7a-430d-42a8-b019-d46ac85d52aa
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250327T190900
+DTEND:20250327T210900
+DTSTAMP:20250327T210900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Newark, NJ
+DESCRIPTION:Prudential Center\nMen's Basketball Championship - East Region - Sweet 16\n(6) BYU Cougars / (2) Alabama Crimson Tide\n07:09 PM - 09:09 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(4) Maryland Terrapins / (1) Florida Gators
+UID:95b70311-f301-4f8d-8997-743f4a4ce296
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250327T193900
+DTEND:20250327T213900
+DTSTAMP:20250327T213900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:San Francisco, CA
+DESCRIPTION:Chase Center\nMen's Basketball Championship - West Region - Sweet 16\n(4) Maryland Terrapins / (1) Florida Gators\n07:39 PM - 09:39 PM EDT on TBS/truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(4) Arizona Wildcats / (1) Duke Blue Devils
+UID:17e484bd-600f-4899-8483-7342d8538e51
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250327T213900
+DTEND:20250327T233900
+DTSTAMP:20250327T233900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Newark, NJ
+DESCRIPTION:Prudential Center\nMen's Basketball Championship - East Region - Sweet 16\n(4) Arizona Wildcats / (1) Duke Blue Devils\n09:39 PM - 11:39 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(10) Arkansas Razorbacks / (3) Texas Tech Red Raiders
+UID:4e5e7bbc-b9e6-4437-a0de-c288e12892a7
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250327T220900
+DTEND:20250328T000900
+DTSTAMP:20250328T000900
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:San Francisco, CA
+DESCRIPTION:Chase Center\nMen's Basketball Championship - West Region - Sweet 16\n(10) Arkansas Razorbacks / (3) Texas Tech Red Raiders\n10:09 PM - 12:09 AM EDT on TBS/truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR

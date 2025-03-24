@@ -236,12 +236,12 @@ if __name__ == "__main__":
 					print(tabulate(df, headers='keys', tablefmt='psql'))
 			
 				# Get pst->est HH:MM AM/PM
-				pattern = r"NIT"
-				match_nit = re.search(pattern, df.tournament.values[0])
-				# Skip the NIT tournament records
-				if match_nit:
+				pattern = r"Basketball Championship"
+				match_mm = re.search(pattern, df.tournament.values[0])
+				# Skip the non March Madness tournament records
+				if not match_mm:
 					if debug == 1:
-						print("skipping NIT record")
+						print("skipping record")
 					continue
 
 			

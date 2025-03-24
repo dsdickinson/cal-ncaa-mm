@@ -1,0 +1,118 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(8) UConn Huskies / (1) Florida Gators
+UID:ce7427db-bcd3-458b-9b22-3887dceb46e3
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T121000
+DTEND:20250323T141000
+DTSTAMP:20250323T141000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Raleigh, NC
+DESCRIPTION:Lenovo Center\nMen's Basketball Championship - West Region - 2nd Round\n(8) UConn Huskies / (1) Florida Gators\n12:10 PM - 02:10 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(9) Baylor Bears / (1) Duke Blue Devils
+UID:1b511896-131d-4b5b-bcd7-096d651c420a
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T144000
+DTEND:20250323T164000
+DTSTAMP:20250323T164000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Raleigh, NC
+DESCRIPTION:Lenovo Center\nMen's Basketball Championship - East Region - 2nd Round\n(9) Baylor Bears / (1) Duke Blue Devils\n02:40 PM - 04:40 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(6) Illinois Fighting Illini / (3) Kentucky Wildcats
+UID:b5070e8b-1eac-41e6-bc91-5aa1a2a8370a
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T171500
+DTEND:20250323T191500
+DTSTAMP:20250323T191500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Milwaukee, WI
+DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - Midwest Region - 2nd Round\n(6) Illinois Fighting Illini / (3) Kentucky Wildcats\n05:15 PM - 07:15 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(7) Saint Mary's Gaels / (2) Alabama Crimson Tide
+UID:58703e6c-c2ac-44bc-9881-163ac797b5f3
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T181000
+DTEND:20250323T201000
+DTSTAMP:20250323T201000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Cleveland, OH
+DESCRIPTION:Rocket Arena\nMen's Basketball Championship - East Region - 2nd Round\n(7) Saint Mary's Gaels / (2) Alabama Crimson Tide\n06:10 PM - 08:10 PM EDT on TNT
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(12) Colorado State Rams / (4) Maryland Terrapins
+UID:7fce9437-148a-4cc0-9973-320f5dc90474
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T191000
+DTEND:20250323T211000
+DTSTAMP:20250323T211000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Seattle, WA
+DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - West Region - 2nd Round\n(12) Colorado State Rams / (4) Maryland Terrapins\n07:10 PM - 09:10 PM EDT on TBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(6) Ole Miss Rebels / (3) Iowa State Cyclones
+UID:d924f907-2c2d-4d0c-ab7b-1bbad51504b2
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T194500
+DTEND:20250323T214500
+DTSTAMP:20250323T214500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Milwaukee, WI
+DESCRIPTION:Fiserv Forum\nMen's Basketball Championship - South Region - 2nd Round\n(6) Ole Miss Rebels / (3) Iowa State Cyclones\n07:45 PM - 09:45 PM EDT on truTV
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(10) New Mexico Lobos / (2) Michigan State Spartans
+UID:107f91b4-66c5-4f54-9121-7235f80634b4
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T204000
+DTEND:20250323T224000
+DTSTAMP:20250323T224000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Cleveland, OH
+DESCRIPTION:Rocket Arena\nMen's Basketball Championship - South Region - 2nd Round\n(10) New Mexico Lobos / (2) Michigan State Spartans\n08:40 PM - 10:40 PM EDT on TNT
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(5) Oregon Ducks / (4) Arizona Wildcats
+UID:3ca92479-058a-4bcd-9e98-b7f572be6ddd
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250323T214000
+DTEND:20250323T234000
+DTSTAMP:20250323T234000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Seattle, WA
+DESCRIPTION:Climate Pledge Arena\nMen's Basketball Championship - East Region - 2nd Round\n(5) Oregon Ducks / (4) Arizona Wildcats\n09:40 PM - 11:40 PM EDT on TBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR
