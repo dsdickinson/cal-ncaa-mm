@@ -65,12 +65,12 @@ Here's an example of a run cycle for the 2025 tournament schedule.
 |  <sub>2025-03-19</sub> | <sub>First Four (day 2)</sub> |  <sub>2025-03-17</sub> | <sub>Run after the Sunday selection is complete.</sub>                   | <sub>ncaa_mens_bb_2025_03_19.ics</sub>
 |  <sub>2025-03-20</sub> | <sub>Round 1 (day 1)</sub>    |  <sub>2025-03-20</sub> | <sub>Same as above or run after the First Four games are complete.</sub> | <sub>ncaa_mens_bb_2025_03_20.ics</sub>
 |  <sub>2025-03-21</sub> | <sub>Round 1 (day 2)</sub>    |  <sub>2025-03-20</sub> | <sub>Same as above.</sub>                                                | <sub>ncaa_mens_bb_2025_03_21.ics</sub>
-|  <sub>2025-03-22</sub> | <sub>Round 2 (day 1)</sub>    |  <sub>2025-03-22</sub> | <sub>Run after all Round 1 games are complete.</sub>                     | <sub>ncaa_mens_bb_2025_03_22.ics</sub>
-|  <sub>2025-03-23</sub> | <sub>Round 2 (day 2)</sub>    |  <sub>2025-03-23</sub> | <sub>Run after all Round 2 (day 1) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_23.ics</sub>
+|  <sub>2025-03-22</sub> | <sub>Round 2 (day 1)</sub>    |  <sub>2025-03-22</sub> | <sub>Run after all Round 1 (day 2) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_22.ics</sub>
+|  <sub>2025-03-23</sub> | <sub>Round 2 (day 2)</sub>    |  <sub>2025-03-22</sub> | <sub>Same as above.</sub>                                                | <sub>ncaa_mens_bb_2025_03_23.ics</sub>
 |  <sub>2025-03-27</sub> | <sub>Sweet 16 (day 1)</sub>   |  <sub>2025-03-24</sub> | <sub>Run after all Round 2 (day 2) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_27.ics</sub>
-|  <sub>2025-03-28</sub> | <sub>Sweet 16 (day 2)</sub>   |  <sub>2025-03-28</sub> | <sub>Run after all Sweet 16 (day 1) games are complete.</sub>            | <sub>ncaa_mens_bb_2025_03_28.ics</sub>
+|  <sub>2025-03-28</sub> | <sub>Sweet 16 (day 2)</sub>   |  <sub>2025-03-24</sub> | <sub>Same as above.</sub>                                                | <sub>ncaa_mens_bb_2025_03_28.ics</sub>
 |  <sub>2025-03-29</sub> | <sub>Elite 8 (day 1)</sub>    |  <sub>2025-03-29</sub> | <sub>Run after all Sweet 16 (day 2) games are complete.</sub>            | <sub>ncaa_mens_bb_2025_03_29.ics</sub>
-|  <sub>2025-03-30</sub> | <sub>Elite 8 (day 2)</sub>    |  <sub>2025-03-29</sub> | <sub>Run after all Elite 8 (day 1) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_03_30.ics</sub>
+|  <sub>2025-03-30</sub> | <sub>Elite 8 (day 2)</sub>    |  <sub>2025-03-29</sub> | <sub>Same as above.</sub>                                                | <sub>ncaa_mens_bb_2025_03_30.ics</sub>
 |  <sub>2025-04-05</sub> | <sub>Final 4</sub>            |  <sub>2025-03-31</sub> | <sub>Run after all Elite 8 (day 2) games are complete.</sub>             | <sub>ncaa_mens_bb_2025_04_05.ics</sub>
 |  <sub>2025-04-07</sub> | <sub>Championship</sub>       |  <sub>2025-04-06</sub> | <sub>Run after all Final 4 games are complete.</sub>                     | <sub>ncaa_mens_bb_2025_04_07.ics</sub>
 
