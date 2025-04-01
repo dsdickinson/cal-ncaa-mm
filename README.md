@@ -19,7 +19,7 @@ This tool leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to 
 ## Usage 
 
 ### Requirements
-Linux<br/>
+A Linux OS<br/>
 Python 3.10.0<br/>
 python3.10-venv
 
