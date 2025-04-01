@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(2) Tennessee Volunteers / (1) Houston Cougars
+UID:146f039b-028d-475f-ab78-b29a71528f39
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250330T142000
+DTEND:20250330T162000
+DTSTAMP:20250330T162000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Indianapolis, IN
+DESCRIPTION:Lucas Oil Stadium\nMen's Basketball Championship - Midwest Region - Elite 8\n(2) Tennessee Volunteers / (1) Houston Cougars\n02:20 PM - 04:20 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:(2) Michigan State Spartans / (1) Auburn Tigers
+UID:7c39f51e-c082-4072-815a-c51e7813a2d7
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250330T170500
+DTEND:20250330T190500
+DTSTAMP:20250330T190500
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:Atlanta, GA
+DESCRIPTION:State Farm Arena\nMen's Basketball Championship - South Region - Elite 8\n(2) Michigan State Spartans / (1) Auburn Tigers\n05:05 PM - 07:05 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR
