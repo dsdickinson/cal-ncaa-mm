@@ -3,7 +3,6 @@
 import os
 import re
 import uuid
-import pandas as pd
 import argparse
 from tabulate import tabulate
 from datetime import timedelta
@@ -14,6 +13,7 @@ import cbbpy.mens_scraper as m
 from datetime import datetime
 import pytz
 
+import pandas as pd
 pd.set_option('display.max_columns', None)  # or 1000
 pd.set_option('display.max_rows', None)  # or 1000
 pd.set_option('display.max_colwidth', None)  # or 199
