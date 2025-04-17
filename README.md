@@ -18,10 +18,25 @@ This tool leverages the [CBBpy](https://pypi.org/project/CBBpy/) pip package to 
 
 ## Usage 
 
+### Requirements
+A Linux OS<br/>
+Python 3.10.0<br/>
+python3.10-venv
+
+### Setup
+```
+> sudo apt install python3.10-venv
+> python -m venv cal-ncaa-mm-env
+> source cal-ncaa-mm-env/bin/activate
+> cd cal-ncaa-mm-env
+> git clone git@github.com:dsdickinson/cal-ncaa-mm.git
+> cd cal-ncaa-mm/
+> pip install -r < requirements.txt
+```
+
 ### Generate ICS file by date
 ```
-> git clone git@github.com:dsdickinson/cal-ncaa-mm.git
-> cd cal-ncaa-mm/src/
+> cd src/
 > ./vcal_gen.py --date 2025-03-22
 File '../ics/ncaa_mens_bb_2025_03_22.ics' has been deleted.
 File '../ics/ncaa_mens_bb_2025_03_22.ics' has been created.
