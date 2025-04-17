@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 SUMMARY:(1) Florida Gators / (1) Auburn Tigers
-UID:99717c5d-0bf8-4bae-bd22-a150612e9659
+UID:78622d90-de05-4961-9065-9ae80c8b301c
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -19,16 +19,16 @@ URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:(1) Houston Cougars / (1) Duke Blue Devils
-UID:846e3eb8-6a36-467c-9895-23c886895440
+UID:0d667c78-b10b-4b95-9a53-8ec1a8ff0db1
 SEQUENCE:1
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
-DTSTART:20250405T204900
-DTEND:20250405T224900
-DTSTAMP:20250405T224900
+DTSTART:20250405T212800
+DTEND:20250405T232800
+DTSTAMP:20250405T232800
 CATEGORIES:NCAA Men's Basketball March Madness
 LOCATION:San Antonio, TX
-DESCRIPTION:Alamodome\nMen's Basketball Championship - Final Four\n(1) Houston Cougars / (1) Duke Blue Devils\n08:49 PM - 10:49 PM EDT on CBS
+DESCRIPTION:Alamodome\nMen's Basketball Championship - Final Four\n(1) Houston Cougars / (1) Duke Blue Devils\n09:28 PM - 11:28 PM EDT on CBS
 URL:https://github.com/dsdickinson/cal-ncaa-mm
 END:VEVENT
 END:VCALENDAR

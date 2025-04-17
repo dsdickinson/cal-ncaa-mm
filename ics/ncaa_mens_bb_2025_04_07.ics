@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:My Product
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+SUMMARY:(1) Florida Gators / (1) Houston Cougars
+UID:db488426-f007-43af-b49e-cfbe708cc9fc
+SEQUENCE:1
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+DTSTART:20250407T205000
+DTEND:20250407T225000
+DTSTAMP:20250407T225000
+CATEGORIES:NCAA Men's Basketball March Madness
+LOCATION:San Antonio, TX
+DESCRIPTION:Alamodome\nMen's Basketball Championship - National Championship\n(1) Florida Gators / (1) Houston Cougars\n08:50 PM - 10:50 PM EDT on CBS
+URL:https://github.com/dsdickinson/cal-ncaa-mm
+END:VEVENT
+END:VCALENDAR
