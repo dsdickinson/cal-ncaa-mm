@@ -31,7 +31,7 @@ python3.10-venv
 > cd cal-ncaa-mm-env
 > git clone git@github.com:dsdickinson/cal-ncaa-mm.git
 > cd cal-ncaa-mm/
-> pip install -r < requirements.txt
+> pip install -r requirements.txt
 ```
 
 ### Generate ICS file by date

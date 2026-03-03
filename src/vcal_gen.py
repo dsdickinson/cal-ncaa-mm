@@ -228,9 +228,13 @@ if __name__ == "__main__":
 			game_ids = m.get_game_ids(date_of_games)
 		
 			for game_id in game_ids:
-				#print(game_id)
+				if debug == 1:
+					print(f"game id: {game_id}")
+
 				game_info = m.get_game_info(game_id)
-				#print(game_info)
+				if debug == 1:
+					print(f"game info: {game_info}")
+
 				df = pd.DataFrame(game_info)
 				if debug == 1:
 					print(tabulate(df, headers='keys', tablefmt='psql'))
